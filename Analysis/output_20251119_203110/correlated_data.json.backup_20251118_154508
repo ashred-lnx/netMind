@@ -1,0 +1,5893 @@
+{
+  "correlated_routes": {
+    "60.1.220.223/32": {
+      "prefix": "60.1.220.223/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.220.223/32",
+          "nexthop": "6.0.0.31",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "6.0.0.28/32": {
+      "prefix": "6.0.0.28/32",
+      "sources": {
+        "bgp": {
+          "prefix": "6.0.0.28/32",
+          "nexthop": "0.0.0.0",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "32768",
+          "as_path_list": [
+            "32768"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "32768",
+      "as_path_list": [
+        "32768"
+      ]
+    },
+    "50.1.220.224/32": {
+      "prefix": "50.1.220.224/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.220.224/32",
+          "nexthop": "6.0.0.31",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "60.1.1.211/32": {
+      "prefix": "60.1.1.211/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.1.211/32",
+          "nexthop": "6.0.0.30",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "60.1.120.123/32": {
+      "prefix": "60.1.120.123/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.120.123/32",
+          "nexthop": "6.0.0.29",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.1.222/32": {
+      "prefix": "50.1.1.222/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.1.222/32",
+          "nexthop": "6.0.0.31",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "81.0.0.5/32": {
+      "prefix": "81.0.0.5/32",
+      "sources": {
+        "bgp": {
+          "prefix": "81.0.0.5/32",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.1.212/32": {
+      "prefix": "50.1.1.212/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.1.212/32",
+          "nexthop": "6.0.0.30",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.1.122/32": {
+      "prefix": "50.1.1.122/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.1.122/32",
+          "nexthop": "6.0.0.29",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "650000",
+          "as_path_list": [
+            "650000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "650000",
+      "as_path_list": [
+        "650000"
+      ]
+    },
+    "81.1.1.0/24": {
+      "prefix": "81.1.1.0/24",
+      "sources": {
+        "bgp": {
+          "prefix": "81.1.1.0/24",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "655000",
+      "as_path_list": [
+        "655000"
+      ]
+    },
+    "60.1.1.221/32": {
+      "prefix": "60.1.1.221/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.1.221/32",
+          "nexthop": "6.0.0.31",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.120.124/32": {
+      "prefix": "50.1.120.124/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.120.124/32",
+          "nexthop": "6.0.0.29",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "81.1.4.0/24": {
+      "prefix": "81.1.4.0/24",
+      "sources": {
+        "bgp": {
+          "prefix": "81.1.4.0/24",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "655000",
+      "as_path_list": [
+        "655000"
+      ]
+    },
+    "60.1.210.213/32": {
+      "prefix": "60.1.210.213/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.210.213/32",
+          "nexthop": "6.0.0.30",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.210.214/32": {
+      "prefix": "50.1.210.214/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.210.214/32",
+          "nexthop": "6.0.0.30",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "81.1.2.0/24": {
+      "prefix": "81.1.2.0/24",
+      "sources": {
+        "bgp": {
+          "prefix": "81.1.2.0/24",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "655000",
+      "as_path_list": [
+        "655000"
+      ]
+    },
+    "60.1.1.121/32": {
+      "prefix": "60.1.1.121/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.1.121/32",
+          "nexthop": "6.0.0.29",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "81.1.3.0/24": {
+      "prefix": "81.1.3.0/24",
+      "sources": {
+        "bgp": {
+          "prefix": "81.1.3.0/24",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "655000",
+      "as_path_list": [
+        "655000"
+      ]
+    }
+  },
+  "bgp_neighbors": {
+    "6.0.0.26": {
+      "neighbor_ip": "6.0.0.26",
+      "sources": {
+        "bgp_neighbors": {
+          "neighbor_ip": "6.0.0.26",
+          "state": "Established",
+          "remote_as": 650000
+        },
+        "bgp_summary": {
+          "neighbor_ip": "6.0.0.26",
+          "version": "4",
+          "remote_as": 650000,
+          "messages_received": 130,
+          "messages_sent": 74,
+          "up_down_time": "never",
+          "state_prefixes": "Active",
+          "prefixes_sent": 1,
+          "description": "FRRouting/10.0.3 1 FRRouting/10.0.3",
+          "source": "bgp.summary"
+        }
+      },
+      "state": "Established",
+      "remote_as": 650000,
+      "messages_received": 130,
+      "messages_sent": 74,
+      "up_down_time": "never",
+      "prefixes_received": "Active",
+      "prefixes_sent": 1,
+      "description": "FRRouting/10.0.3 1 FRRouting/10.0.3"
+    },
+    "6.0.0.27": {
+      "neighbor_ip": "6.0.0.27",
+      "sources": {
+        "bgp_neighbors": {
+          "neighbor_ip": "6.0.0.27",
+          "state": "Established",
+          "remote_as": 650000
+        },
+        "bgp_summary": {
+          "neighbor_ip": "6.0.0.27",
+          "version": "4",
+          "remote_as": 650000,
+          "messages_received": 130,
+          "messages_sent": 74,
+          "up_down_time": "00:07:43",
+          "state_prefixes": "5",
+          "prefixes_sent": 1,
+          "description": "FRRouting/10.0.3",
+          "source": "bgp.summary"
+        }
+      },
+      "state": "Established",
+      "remote_as": 650000,
+      "messages_received": 130,
+      "messages_sent": 74,
+      "up_down_time": "00:07:43",
+      "prefixes_received": "5",
+      "prefixes_sent": 1,
+      "description": "FRRouting/10.0.3"
+    }
+  },
+  "qos_counters": {
+    "swp1s0": {
+      "interface": "swp1s0",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 50000
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp1s1": {
+      "interface": "swp1s1",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 412
+        }
+      }
+    },
+    "swp1s2": {
+      "interface": "swp1s2",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 333
+        }
+      }
+    },
+    "swp1s3": {
+      "interface": "swp1s3",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 334
+        }
+      }
+    },
+    "swp2": {
+      "interface": "swp2",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp3": {
+      "interface": "swp3",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp4": {
+      "interface": "swp4",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp5": {
+      "interface": "swp5",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp6": {
+      "interface": "swp6",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp7": {
+      "interface": "swp7",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp8": {
+      "interface": "swp8",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp9": {
+      "interface": "swp9",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp10": {
+      "interface": "swp10",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp11": {
+      "interface": "swp11",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp12": {
+      "interface": "swp12",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp13": {
+      "interface": "swp13",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp14": {
+      "interface": "swp14",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp15": {
+      "interface": "swp15",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp16": {
+      "interface": "swp16",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp17": {
+      "interface": "swp17",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp18": {
+      "interface": "swp18",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp19": {
+      "interface": "swp19",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp20": {
+      "interface": "swp20",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp21": {
+      "interface": "swp21",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp22": {
+      "interface": "swp22",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp23": {
+      "interface": "swp23",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp24": {
+      "interface": "swp24",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp25": {
+      "interface": "swp25",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp26": {
+      "interface": "swp26",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp27": {
+      "interface": "swp27",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp28": {
+      "interface": "swp28",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp29": {
+      "interface": "swp29",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp30": {
+      "interface": "swp30",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp31s0": {
+      "interface": "swp31s0",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 292
+        }
+      }
+    },
+    "swp31s1": {
+      "interface": "swp31s1",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 295
+        }
+      }
+    },
+    "swp31s2": {
+      "interface": "swp31s2",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp31s3": {
+      "interface": "swp31s3",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp32": {
+      "interface": "swp32",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    }
+  },
+  "interface_modes": {},
+  "metadata": {
+    "total_routes": 18,
+    "bgp_routes": 18,
+    "total_neighbors": 2,
+    "established_neighbors": 2,
+    "interfaces_with_qos": 38,
+    "interfaces_with_mode": 0
+  },
+  "composite_qos_info": {
+    "swp1s0": {
+      "interface": "swp1s0",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 50000
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp1s1": {
+      "interface": "swp1s1",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 412
+        }
+      }
+    },
+    "swp1s2": {
+      "interface": "swp1s2",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 333
+        }
+      }
+    },
+    "swp1s3": {
+      "interface": "swp1s3",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 334
+        }
+      }
+    },
+    "swp2": {
+      "interface": "swp2",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp3": {
+      "interface": "swp3",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp4": {
+      "interface": "swp4",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp5": {
+      "interface": "swp5",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp6": {
+      "interface": "swp6",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp7": {
+      "interface": "swp7",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp8": {
+      "interface": "swp8",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp9": {
+      "interface": "swp9",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp10": {
+      "interface": "swp10",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp11": {
+      "interface": "swp11",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp12": {
+      "interface": "swp12",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp13": {
+      "interface": "swp13",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp14": {
+      "interface": "swp14",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp15": {
+      "interface": "swp15",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp16": {
+      "interface": "swp16",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp17": {
+      "interface": "swp17",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp18": {
+      "interface": "swp18",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp19": {
+      "interface": "swp19",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp20": {
+      "interface": "swp20",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp21": {
+      "interface": "swp21",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp22": {
+      "interface": "swp22",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp23": {
+      "interface": "swp23",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp24": {
+      "interface": "swp24",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp25": {
+      "interface": "swp25",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp26": {
+      "interface": "swp26",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp27": {
+      "interface": "swp27",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp28": {
+      "interface": "swp28",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp29": {
+      "interface": "swp29",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp30": {
+      "interface": "swp30",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp31s0": {
+      "interface": "swp31s0",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 292
+        }
+      }
+    },
+    "swp31s1": {
+      "interface": "swp31s1",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 295
+        }
+      }
+    },
+    "swp31s2": {
+      "interface": "swp31s2",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp31s3": {
+      "interface": "swp31s3",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    },
+    "swp32": {
+      "interface": "swp32",
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      }
+    }
+  },
+  "composite_interfaces_info": {
+    "swp5": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp5"
+    },
+    "swp14": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp14"
+    },
+    "swp18": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp18"
+    },
+    "swp17": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp17"
+    },
+    "swp6": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp6"
+    },
+    "swp1s3": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 334
+        }
+      },
+      "interface": "swp1s3"
+    },
+    "swp26": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp26"
+    },
+    "swp4": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp4"
+    },
+    "swp27": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp27"
+    },
+    "swp10": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp10"
+    },
+    "swp1s0": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 50000
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp1s0"
+    },
+    "swp16": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp16"
+    },
+    "swp25": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp25"
+    },
+    "swp31s2": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp31s2"
+    },
+    "swp1s1": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 412
+        }
+      },
+      "interface": "swp1s1"
+    },
+    "swp19": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp19"
+    },
+    "swp24": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp24"
+    },
+    "swp1s2": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 333
+        }
+      },
+      "interface": "swp1s2"
+    },
+    "swp3": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp3"
+    },
+    "swp23": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp23"
+    },
+    "swp31s1": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 295
+        }
+      },
+      "interface": "swp31s1"
+    },
+    "swp7": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp7"
+    },
+    "swp22": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp22"
+    },
+    "swp31s0": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 292
+        }
+      },
+      "interface": "swp31s0"
+    },
+    "swp31s3": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp31s3"
+    },
+    "swp28": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp28"
+    },
+    "swp29": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp29"
+    },
+    "swp8": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp8"
+    },
+    "swp12": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp12"
+    },
+    "swp11": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp11"
+    },
+    "swp21": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp21"
+    },
+    "swp20": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp20"
+    },
+    "swp9": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp9"
+    },
+    "swp13": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp13"
+    },
+    "swp30": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp30"
+    },
+    "swp32": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp32"
+    },
+    "swp2": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp2"
+    },
+    "swp15": {
+      "qos_egress_counters": {
+        "tc0": {
+          "tx_frames": 0
+        },
+        "tc7": {
+          "tx_frames": 0
+        }
+      },
+      "interface": "swp15"
+    }
+  },
+  "composite_evpn_info": {
+    "vni_1000114": {
+      "vni": "1000114",
+      "type": "L2",
+      "rd": "6.0.0.28:2",
+      "import_rt": "60176:1000114",
+      "export_rt": "60176:1000114",
+      "mac_vrf": "",
+      "tenant_vrf": "vrf1",
+      "local_vni": "1000114",
+      "remote_vni": null,
+      "symmetric_routing_enabled": false,
+      "advertise_all_vni": false
+    },
+    "vni_1000112": {
+      "vni": "1000112",
+      "type": "L2",
+      "rd": "6.0.0.28:3",
+      "import_rt": "60176:1000112",
+      "export_rt": "60176:1000112",
+      "mac_vrf": "",
+      "tenant_vrf": "vrf1",
+      "local_vni": "1000112",
+      "remote_vni": null,
+      "symmetric_routing_enabled": false,
+      "advertise_all_vni": false
+    },
+    "vni_1000113": {
+      "vni": "1000113",
+      "type": "L2",
+      "rd": "6.0.0.28:4",
+      "import_rt": "60176:1000113",
+      "export_rt": "60176:1000113",
+      "mac_vrf": "",
+      "tenant_vrf": "vrf2",
+      "local_vni": "1000113",
+      "remote_vni": null,
+      "symmetric_routing_enabled": false,
+      "advertise_all_vni": false
+    },
+    "vni_1000111": {
+      "vni": "1000111",
+      "type": "L2",
+      "rd": "6.0.0.28:5",
+      "import_rt": "60176:1000111",
+      "export_rt": "60176:1000111",
+      "mac_vrf": "",
+      "tenant_vrf": "vrf2",
+      "local_vni": "1000111",
+      "remote_vni": null,
+      "symmetric_routing_enabled": false,
+      "advertise_all_vni": false
+    },
+    "vni_104001": {
+      "vni": "104001",
+      "type": "L3",
+      "rd": "50.1.110.250:6",
+      "import_rt": "60176:104001",
+      "export_rt": "60176:104001",
+      "mac_vrf": "",
+      "tenant_vrf": "vrf1",
+      "local_vni": "104001",
+      "remote_vni": null,
+      "symmetric_routing_enabled": false,
+      "advertise_all_vni": false
+    },
+    "vni_104002": {
+      "vni": "104002",
+      "type": "L3",
+      "rd": "60.1.110.250:7",
+      "import_rt": "60176:104002",
+      "export_rt": "60176:104002",
+      "mac_vrf": "",
+      "tenant_vrf": "vrf2",
+      "local_vni": "104002",
+      "remote_vni": null,
+      "symmetric_routing_enabled": false,
+      "advertise_all_vni": false
+    },
+    "mac_00:02:00:00:00:0b:0": {
+      "mac_address": "00:02:00:00:00:0b",
+      "ip_address": null,
+      "vni": "0",
+      "route_type": "type2",
+      "local_mac": "00:02:00:00:00:0b",
+      "remote_mac": null,
+      "nexthop": "6.0.0.28",
+      "rd": "6.0.0.28:2",
+      "rt": null
+    },
+    "mac_00:02:00:00:00:0b:50.1.110.114:0": {
+      "mac_address": "00:02:00:00:00:0b",
+      "ip_address": "50.1.110.114",
+      "vni": "0",
+      "route_type": "type2",
+      "local_mac": "00:02:00:00:00:0b",
+      "remote_mac": null,
+      "nexthop": "6.0.0.28",
+      "rd": "6.0.0.28:2",
+      "rt": null
+    },
+    "mac_00:02:00:00:00:09:0": {
+      "mac_address": "00:02:00:00:00:09",
+      "ip_address": null,
+      "vni": "0",
+      "route_type": "type2",
+      "local_mac": "00:02:00:00:00:09",
+      "remote_mac": null,
+      "nexthop": "6.0.0.28",
+      "rd": "6.0.0.28:3",
+      "rt": null
+    },
+    "mac_00:02:00:00:00:09:50.1.1.112:0": {
+      "mac_address": "00:02:00:00:00:09",
+      "ip_address": "50.1.1.112",
+      "vni": "0",
+      "route_type": "type2",
+      "local_mac": "00:02:00:00:00:09",
+      "remote_mac": null,
+      "nexthop": "6.0.0.28",
+      "rd": "6.0.0.28:3",
+      "rt": null
+    },
+    "mac_00:02:00:00:00:0a:0": {
+      "mac_address": "00:02:00:00:00:0a",
+      "ip_address": null,
+      "vni": "0",
+      "route_type": "type2",
+      "local_mac": "00:02:00:00:00:0a",
+      "remote_mac": null,
+      "nexthop": "6.0.0.28",
+      "rd": "6.0.0.28:4",
+      "rt": null
+    },
+    "mac_00:02:00:00:00:0a:60.1.110.113:0": {
+      "mac_address": "00:02:00:00:00:0a",
+      "ip_address": "60.1.110.113",
+      "vni": "0",
+      "route_type": "type2",
+      "local_mac": "00:02:00:00:00:0a",
+      "remote_mac": null,
+      "nexthop": "6.0.0.28",
+      "rd": "6.0.0.28:4",
+      "rt": null
+    },
+    "mac_00:02:00:00:00:08:0": {
+      "mac_address": "00:02:00:00:00:08",
+      "ip_address": null,
+      "vni": "0",
+      "route_type": "type2",
+      "local_mac": "00:02:00:00:00:08",
+      "remote_mac": null,
+      "nexthop": "6.0.0.28",
+      "rd": "6.0.0.28:5",
+      "rt": null
+    },
+    "mac_00:02:00:00:00:08:60.1.1.111:0": {
+      "mac_address": "00:02:00:00:00:08",
+      "ip_address": "60.1.1.111",
+      "vni": "0",
+      "route_type": "type2",
+      "local_mac": "00:02:00:00:00:08",
+      "remote_mac": null,
+      "nexthop": "6.0.0.28",
+      "rd": "6.0.0.28:5",
+      "rt": null
+    },
+    "ip_81.1.1.0/24:4": {
+      "prefix": "81.1.1.0/24",
+      "vni": "4",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.2:4",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.2.0/24:4": {
+      "prefix": "81.1.2.0/24",
+      "vni": "4",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.2:4",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.3.0/24:4": {
+      "prefix": "81.1.3.0/24",
+      "vni": "4",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.2:4",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.4.0/24:4": {
+      "prefix": "81.1.4.0/24",
+      "vni": "4",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.2:4",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:1::/64:4": {
+      "prefix": "2081:1:1:1::/64",
+      "vni": "4",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.2:4",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:2::/64:4": {
+      "prefix": "2081:1:1:2::/64",
+      "vni": "4",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.2:4",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:3::/64:4": {
+      "prefix": "2081:1:1:3::/64",
+      "vni": "4",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.2:4",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:4::/64:4": {
+      "prefix": "2081:1:1:4::/64",
+      "vni": "4",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.2:4",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.1.0/24:5": {
+      "prefix": "81.1.1.0/24",
+      "vni": "5",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.6:5",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.2.0/24:5": {
+      "prefix": "81.1.2.0/24",
+      "vni": "5",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.6:5",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.3.0/24:5": {
+      "prefix": "81.1.3.0/24",
+      "vni": "5",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.6:5",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.4.0/24:5": {
+      "prefix": "81.1.4.0/24",
+      "vni": "5",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.6:5",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:1::/64:5": {
+      "prefix": "2081:1:1:1::/64",
+      "vni": "5",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.6:5",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:2::/64:5": {
+      "prefix": "2081:1:1:2::/64",
+      "vni": "5",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.6:5",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:3::/64:5": {
+      "prefix": "2081:1:1:3::/64",
+      "vni": "5",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.6:5",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:4::/64:5": {
+      "prefix": "2081:1:1:4::/64",
+      "vni": "5",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.1.1.6:5",
+      "nexthop": "6.0.0.26",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.1.0/24:2": {
+      "prefix": "81.1.1.0/24",
+      "vni": "2",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.2:2",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.2.0/24:2": {
+      "prefix": "81.1.2.0/24",
+      "vni": "2",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.2:2",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.3.0/24:2": {
+      "prefix": "81.1.3.0/24",
+      "vni": "2",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.2:2",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.4.0/24:2": {
+      "prefix": "81.1.4.0/24",
+      "vni": "2",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.2:2",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:1::/64:2": {
+      "prefix": "2081:1:1:1::/64",
+      "vni": "2",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.2:2",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:2::/64:2": {
+      "prefix": "2081:1:1:2::/64",
+      "vni": "2",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.2:2",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:3::/64:2": {
+      "prefix": "2081:1:1:3::/64",
+      "vni": "2",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.2:2",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:4::/64:2": {
+      "prefix": "2081:1:1:4::/64",
+      "vni": "2",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.2:2",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.1.0/24:3": {
+      "prefix": "81.1.1.0/24",
+      "vni": "3",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.6:3",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.2.0/24:3": {
+      "prefix": "81.1.2.0/24",
+      "vni": "3",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.6:3",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.3.0/24:3": {
+      "prefix": "81.1.3.0/24",
+      "vni": "3",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.6:3",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_81.1.4.0/24:3": {
+      "prefix": "81.1.4.0/24",
+      "vni": "3",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.6:3",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:1::/64:3": {
+      "prefix": "2081:1:1:1::/64",
+      "vni": "3",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.6:3",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:2::/64:3": {
+      "prefix": "2081:1:1:2::/64",
+      "vni": "3",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.6:3",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:3::/64:3": {
+      "prefix": "2081:1:1:3::/64",
+      "vni": "3",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.6:3",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    },
+    "ip_2081:1:1:4::/64:3": {
+      "prefix": "2081:1:1:4::/64",
+      "vni": "3",
+      "route_type": "type5",
+      "eth_tag": "0",
+      "rd": "144.2.1.6:3",
+      "nexthop": "6.0.0.27",
+      "is_local": false,
+      "layer_status": {
+        "in_bgp_evpn": true,
+        "in_kernel": false
+      }
+    }
+  },
+  "discovered_composite_sources": {
+    "composite_bgp_routes_info": {
+      "_data": {
+        "60.1.220.223/32": {
+          "prefix": "60.1.220.223/32",
+          "sources": {
+            "bgp": {
+              "prefix": "60.1.220.223/32",
+              "nexthop": "6.0.0.31",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "6.0.0.28/32": {
+          "prefix": "6.0.0.28/32",
+          "sources": {
+            "bgp": {
+              "prefix": "6.0.0.28/32",
+              "nexthop": "0.0.0.0",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "32768",
+              "as_path_list": [
+                "32768"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "32768",
+          "as_path_list": [
+            "32768"
+          ]
+        },
+        "50.1.220.224/32": {
+          "prefix": "50.1.220.224/32",
+          "sources": {
+            "bgp": {
+              "prefix": "50.1.220.224/32",
+              "nexthop": "6.0.0.31",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "60.1.1.211/32": {
+          "prefix": "60.1.1.211/32",
+          "sources": {
+            "bgp": {
+              "prefix": "60.1.1.211/32",
+              "nexthop": "6.0.0.30",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "60.1.120.123/32": {
+          "prefix": "60.1.120.123/32",
+          "sources": {
+            "bgp": {
+              "prefix": "60.1.120.123/32",
+              "nexthop": "6.0.0.29",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "50.1.1.222/32": {
+          "prefix": "50.1.1.222/32",
+          "sources": {
+            "bgp": {
+              "prefix": "50.1.1.222/32",
+              "nexthop": "6.0.0.31",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "81.0.0.5/32": {
+          "prefix": "81.0.0.5/32",
+          "sources": {
+            "bgp": {
+              "prefix": "81.0.0.5/32",
+              "nexthop": "6.0.0.26",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "50.1.1.212/32": {
+          "prefix": "50.1.1.212/32",
+          "sources": {
+            "bgp": {
+              "prefix": "50.1.1.212/32",
+              "nexthop": "6.0.0.30",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "50.1.1.122/32": {
+          "prefix": "50.1.1.122/32",
+          "sources": {
+            "bgp": {
+              "prefix": "50.1.1.122/32",
+              "nexthop": "6.0.0.29",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "650000",
+              "as_path_list": [
+                "650000"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "650000",
+          "as_path_list": [
+            "650000"
+          ]
+        },
+        "81.1.1.0/24": {
+          "prefix": "81.1.1.0/24",
+          "sources": {
+            "bgp": {
+              "prefix": "81.1.1.0/24",
+              "nexthop": "6.0.0.26",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "655000",
+              "as_path_list": [
+                "655000"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        },
+        "60.1.1.221/32": {
+          "prefix": "60.1.1.221/32",
+          "sources": {
+            "bgp": {
+              "prefix": "60.1.1.221/32",
+              "nexthop": "6.0.0.31",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "50.1.120.124/32": {
+          "prefix": "50.1.120.124/32",
+          "sources": {
+            "bgp": {
+              "prefix": "50.1.120.124/32",
+              "nexthop": "6.0.0.29",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "81.1.4.0/24": {
+          "prefix": "81.1.4.0/24",
+          "sources": {
+            "bgp": {
+              "prefix": "81.1.4.0/24",
+              "nexthop": "6.0.0.26",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "655000",
+              "as_path_list": [
+                "655000"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        },
+        "60.1.210.213/32": {
+          "prefix": "60.1.210.213/32",
+          "sources": {
+            "bgp": {
+              "prefix": "60.1.210.213/32",
+              "nexthop": "6.0.0.30",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "50.1.210.214/32": {
+          "prefix": "50.1.210.214/32",
+          "sources": {
+            "bgp": {
+              "prefix": "50.1.210.214/32",
+              "nexthop": "6.0.0.30",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "81.1.2.0/24": {
+          "prefix": "81.1.2.0/24",
+          "sources": {
+            "bgp": {
+              "prefix": "81.1.2.0/24",
+              "nexthop": "6.0.0.26",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "655000",
+              "as_path_list": [
+                "655000"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        },
+        "60.1.1.121/32": {
+          "prefix": "60.1.1.121/32",
+          "sources": {
+            "bgp": {
+              "prefix": "60.1.1.121/32",
+              "nexthop": "6.0.0.29",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "81.1.3.0/24": {
+          "prefix": "81.1.3.0/24",
+          "sources": {
+            "bgp": {
+              "prefix": "81.1.3.0/24",
+              "nexthop": "6.0.0.26",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "655000",
+              "as_path_list": [
+                "655000"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "_metadata": {
+        "category": "bgp_routes",
+        "source_files": [
+          "bgp.evn route.vni.all",
+          "bgp.evpn.",
+          "bgp.evpn.es_evi.detail",
+          "bgp.evpn.importrt",
+          "bgp.evpn.nexthops",
+          "bgp.evpn.update_group",
+          "bgp.ipv4_vpn_route_leak",
+          "bgp.ipv6_route",
+          "bgp.ipv6_vpn_all",
+          "bgp.ipv6_vpn_route_leak",
+          "bgp.neighbors",
+          "bgp.route",
+          "bgp.update_group"
+        ],
+        "file_count": 13,
+        "data_count": 18,
+        "data_source": "parsed_data",
+        "composite_name": "composite_bgp_routes_info",
+        "description": "Composite Bgp Routes from discovered sources"
+      }
+    },
+    "composite_neighbors_info": {
+      "_data": {
+        "6.0.0.26": {
+          "neighbor_ip": "6.0.0.26",
+          "state": "Established",
+          "remote_as": 650000
+        },
+        "6.0.0.27": {
+          "neighbor_ip": "6.0.0.27",
+          "state": "Established",
+          "remote_as": 650000
+        }
+      },
+      "_metadata": {
+        "category": "bgp_neighbors",
+        "source_files": [
+          "bgp.evn.route.vni.all",
+          "bgp.evpn.es_evi.detail",
+          "bgp.evpn.nexthops",
+          "bgp.evpn.route.mac_ip_evi_es",
+          "bgp.ipv6_soo",
+          "bgp.neighbors"
+        ],
+        "file_count": 6,
+        "data_count": 2,
+        "data_source": "parsed_data",
+        "composite_name": "composite_neighbors_info",
+        "description": "Composite Bgp Neighbors from discovered sources"
+      }
+    },
+    "composite_bgp_evpn_info": {
+      "_metadata": {
+        "category": "bgp_evpn",
+        "source_files": [
+          "bgp.evn.*",
+          "bgp.evn.nexthops",
+          "bgp.evn.route.vni.all",
+          "bgp.evnv.vrfimportrt",
+          "bgp.evpn.",
+          "bgp.evpn.*",
+          "bgp.evpn.detail",
+          "bgp.evpn.es_evi.detail",
+          "bgp.evpn.nexthops",
+          "bgp.evpn.route",
+          "bgp.evpn.route.mac_ip_global_es",
+          "bgp.evpn.route.vni.all",
+          "bgp.evpn.summary",
+          "bgp.ipv6_vpn_all",
+          "bgp.ipv6_vpn_route_leak",
+          "evpn.arp_cache.vni",
+          "evpn.vni.detail"
+        ],
+        "file_count": 17,
+        "composite_name": "composite_bgp_evpn_info",
+        "description": "Composite Bgp Evpn from discovered sources",
+        "note": "Parser not yet implemented - showing file list only",
+        "data_count": 0,
+        "has_data": false
+      }
+    },
+    "composite_ospf_info": {
+      "_metadata": {
+        "category": "ospf",
+        "source_files": [
+          "ospf.",
+          "ospf.*",
+          "ospf.borderrouters",
+          "ospf.database",
+          "ospf.database.router",
+          "ospf.interface",
+          "ospf.show_running",
+          "ospf6",
+          "ospf6.database.router",
+          "ospf6.neighbor",
+          "ospf6.redistribute",
+          "ospf6.route_summary",
+          "ospf6.show_running",
+          "ospf6.spf.tree"
+        ],
+        "file_count": 14,
+        "composite_name": "composite_ospf_info",
+        "description": "Composite Ospf from discovered sources",
+        "note": "Parser not yet implemented - showing file list only",
+        "data_count": 0,
+        "has_data": false
+      }
+    },
+    "composite_zebra_rib_info": {
+      "_metadata": {
+        "category": "zebra_rib",
+        "source_files": [
+          "z bra.tribe",
+          "zebra.ipv6_nht",
+          "zebra.metaq",
+          "zebra.nhg",
+          "zebra.route",
+          "zebra.vrf",
+          "zebra.vrf.vni"
+        ],
+        "file_count": 7,
+        "composite_name": "composite_zebra_rib_info",
+        "description": "Composite Zebra Rib from discovered sources",
+        "note": "Parser not yet implemented - showing file list only",
+        "data_count": 0,
+        "has_data": false
+      }
+    },
+    "composite_kernel_routes_info": {
+      "_data": {
+        "60.1.220.223/32": {
+          "prefix": "60.1.220.223/32",
+          "sources": {
+            "bgp": {
+              "prefix": "60.1.220.223/32",
+              "nexthop": "6.0.0.31",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "6.0.0.28/32": {
+          "prefix": "6.0.0.28/32",
+          "sources": {
+            "bgp": {
+              "prefix": "6.0.0.28/32",
+              "nexthop": "0.0.0.0",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "32768",
+              "as_path_list": [
+                "32768"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "32768",
+          "as_path_list": [
+            "32768"
+          ]
+        },
+        "50.1.220.224/32": {
+          "prefix": "50.1.220.224/32",
+          "sources": {
+            "bgp": {
+              "prefix": "50.1.220.224/32",
+              "nexthop": "6.0.0.31",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "60.1.1.211/32": {
+          "prefix": "60.1.1.211/32",
+          "sources": {
+            "bgp": {
+              "prefix": "60.1.1.211/32",
+              "nexthop": "6.0.0.30",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "60.1.120.123/32": {
+          "prefix": "60.1.120.123/32",
+          "sources": {
+            "bgp": {
+              "prefix": "60.1.120.123/32",
+              "nexthop": "6.0.0.29",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "50.1.1.222/32": {
+          "prefix": "50.1.1.222/32",
+          "sources": {
+            "bgp": {
+              "prefix": "50.1.1.222/32",
+              "nexthop": "6.0.0.31",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "81.0.0.5/32": {
+          "prefix": "81.0.0.5/32",
+          "sources": {
+            "bgp": {
+              "prefix": "81.0.0.5/32",
+              "nexthop": "6.0.0.26",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "50.1.1.212/32": {
+          "prefix": "50.1.1.212/32",
+          "sources": {
+            "bgp": {
+              "prefix": "50.1.1.212/32",
+              "nexthop": "6.0.0.30",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "50.1.1.122/32": {
+          "prefix": "50.1.1.122/32",
+          "sources": {
+            "bgp": {
+              "prefix": "50.1.1.122/32",
+              "nexthop": "6.0.0.29",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "650000",
+              "as_path_list": [
+                "650000"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "650000",
+          "as_path_list": [
+            "650000"
+          ]
+        },
+        "81.1.1.0/24": {
+          "prefix": "81.1.1.0/24",
+          "sources": {
+            "bgp": {
+              "prefix": "81.1.1.0/24",
+              "nexthop": "6.0.0.26",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "655000",
+              "as_path_list": [
+                "655000"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        },
+        "60.1.1.221/32": {
+          "prefix": "60.1.1.221/32",
+          "sources": {
+            "bgp": {
+              "prefix": "60.1.1.221/32",
+              "nexthop": "6.0.0.31",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "50.1.120.124/32": {
+          "prefix": "50.1.120.124/32",
+          "sources": {
+            "bgp": {
+              "prefix": "50.1.120.124/32",
+              "nexthop": "6.0.0.29",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "81.1.4.0/24": {
+          "prefix": "81.1.4.0/24",
+          "sources": {
+            "bgp": {
+              "prefix": "81.1.4.0/24",
+              "nexthop": "6.0.0.26",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "655000",
+              "as_path_list": [
+                "655000"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        },
+        "60.1.210.213/32": {
+          "prefix": "60.1.210.213/32",
+          "sources": {
+            "bgp": {
+              "prefix": "60.1.210.213/32",
+              "nexthop": "6.0.0.30",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "50.1.210.214/32": {
+          "prefix": "50.1.210.214/32",
+          "sources": {
+            "bgp": {
+              "prefix": "50.1.210.214/32",
+              "nexthop": "6.0.0.30",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "81.1.2.0/24": {
+          "prefix": "81.1.2.0/24",
+          "sources": {
+            "bgp": {
+              "prefix": "81.1.2.0/24",
+              "nexthop": "6.0.0.26",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "655000",
+              "as_path_list": [
+                "655000"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        },
+        "60.1.1.121/32": {
+          "prefix": "60.1.1.121/32",
+          "sources": {
+            "bgp": {
+              "prefix": "60.1.1.121/32",
+              "nexthop": "6.0.0.29",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "100 0",
+              "as_path_list": [
+                "100",
+                "0"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        },
+        "81.1.3.0/24": {
+          "prefix": "81.1.3.0/24",
+          "sources": {
+            "bgp": {
+              "prefix": "81.1.3.0/24",
+              "nexthop": "6.0.0.26",
+              "source": "bgp",
+              "protocol": "bgp",
+              "as_path": "655000",
+              "as_path_list": [
+                "655000"
+              ]
+            }
+          },
+          "layer_status": {
+            "in_kernel": false,
+            "in_bgp": true
+          },
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "_metadata": {
+        "category": "kernel_routes",
+        "source_files": [
+          "ip.route",
+          "l3.neigh",
+          "l3.neigh.show",
+          "l3.neigh6.show",
+          "l3.route.count",
+          "l3.route.show",
+          "netstat-s",
+          "time.associations",
+          "time.kerninfo",
+          "time.sysinfo"
+        ],
+        "file_count": 10,
+        "data_count": 18,
+        "data_source": "parsed_data",
+        "composite_name": "composite_kernel_routes_info",
+        "description": "Composite Kernel Routes from discovered sources"
+      }
+    },
+    "composite_kernel_interfaces_info": {
+      "_metadata": {
+        "category": "kernel_interfaces",
+        "source_files": [
+          "bridge.vlan",
+          "bridge.vni",
+          "ip.addr",
+          "ip.link",
+          "ip.nexthop",
+          "ip6.mroute-all",
+          "ip6.route",
+          "ip6.routecache",
+          "netlink.dbg",
+          "netstat-a"
+        ],
+        "file_count": 10,
+        "composite_name": "composite_kernel_interfaces_info",
+        "description": "Composite Kernel Interfaces from discovered sources",
+        "note": "Parser not yet implemented - showing file list only",
+        "data_count": 0,
+        "has_data": false
+      }
+    },
+    "composite_frr_config_info": {
+      "_metadata": {
+        "category": "frr_config",
+        "source_files": [
+          "frr.bgp_yang",
+          "frr.conf",
+          "frr.memory",
+          "frr.modules",
+          "frr.show_log",
+          "frr.show_running",
+          "frr.show_ver",
+          "frr.thread_cpu",
+          "frr.thread_poll",
+          "frr.work_queues"
+        ],
+        "file_count": 10,
+        "composite_name": "composite_frr_config_info",
+        "description": "Composite Frr Config from discovered sources",
+        "note": "Parser not yet implemented - showing file list only",
+        "data_count": 0,
+        "has_data": false
+      }
+    },
+    "composite_frr_system_info": {
+      "_metadata": {
+        "category": "frr_system",
+        "source_files": [
+          "frr.memory",
+          "frr.modules",
+          "frr.systemd.analyze_blame",
+          "frr.thread_poll"
+        ],
+        "file_count": 4,
+        "composite_name": "composite_frr_system_info",
+        "description": "Composite Frr System from discovered sources",
+        "note": "Parser not yet implemented - showing file list only",
+        "data_count": 0,
+        "has_data": false
+      }
+    },
+    "composite_interfaces_info": {
+      "_data": {
+        "br_default": {
+          "name": "br_default",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "br_l3vni": {
+          "name": "br_l3vni",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "ipmr-lo": {
+          "name": "ipmr-lo",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "lo": {
+          "name": "lo",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "mirror": {
+          "name": "mirror",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "pimreg": {
+          "name": "pimreg",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "swid0_eth": {
+          "name": "swid0_eth",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "swp1s0": {
+          "name": "swp1s0",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "swp1s1": {
+          "name": "swp1s1",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "swp1s2": {
+          "name": "swp1s2",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "swp1s3": {
+          "name": "swp1s3",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "swp2": {
+          "name": "swp2",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp3": {
+          "name": "swp3",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp4": {
+          "name": "swp4",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp5": {
+          "name": "swp5",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp6": {
+          "name": "swp6",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp7": {
+          "name": "swp7",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp8": {
+          "name": "swp8",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp9": {
+          "name": "swp9",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp10": {
+          "name": "swp10",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp11": {
+          "name": "swp11",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp12": {
+          "name": "swp12",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp13": {
+          "name": "swp13",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp14": {
+          "name": "swp14",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp15": {
+          "name": "swp15",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp16": {
+          "name": "swp16",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp17": {
+          "name": "swp17",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp18": {
+          "name": "swp18",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp19": {
+          "name": "swp19",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp20": {
+          "name": "swp20",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp21": {
+          "name": "swp21",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp22": {
+          "name": "swp22",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp23": {
+          "name": "swp23",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp24": {
+          "name": "swp24",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp25": {
+          "name": "swp25",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp26": {
+          "name": "swp26",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp27": {
+          "name": "swp27",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp28": {
+          "name": "swp28",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp29": {
+          "name": "swp29",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp30": {
+          "name": "swp30",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp31s0": {
+          "name": "swp31s0",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "swp31s1": {
+          "name": "swp31s1",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "swp31s2": {
+          "name": "swp31s2",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp31s3": {
+          "name": "swp31s3",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "swp32": {
+          "name": "swp32",
+          "state": "down",
+          "oper_state": "down"
+        },
+        "vxlan48": {
+          "name": "vxlan48",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "vxlan99": {
+          "name": "vxlan99",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "eth0": {
+          "name": "eth0",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "mgmt": {
+          "name": "mgmt",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "pimreg1001": {
+          "name": "pimreg1001",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "pimreg1002": {
+          "name": "pimreg1002",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "vlan112": {
+          "name": "vlan112",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "vlan112-v0": {
+          "name": "vlan112-v0",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "vlan114": {
+          "name": "vlan114",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "vlan114-v0": {
+          "name": "vlan114-v0",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "vlan2501_l3": {
+          "name": "vlan2501_l3",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "vrf1": {
+          "name": "vrf1",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "pimreg1003": {
+          "name": "pimreg1003",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "vlan111": {
+          "name": "vlan111",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "vlan111-v0": {
+          "name": "vlan111-v0",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "vlan113": {
+          "name": "vlan113",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "vlan113-v0": {
+          "name": "vlan113-v0",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "vlan1953_l3": {
+          "name": "vlan1953_l3",
+          "state": "up",
+          "oper_state": "up"
+        },
+        "vrf2": {
+          "name": "vrf2",
+          "state": "up",
+          "oper_state": "up"
+        }
+      },
+      "_metadata": {
+        "category": "interfaces",
+        "source_files": [
+          "bridge.*",
+          "bridge.link",
+          "bridge.mdb",
+          "bridge.tunnel",
+          "bridge.vlan",
+          "ethtool.*",
+          "ethtool.stats",
+          "ext4frag.info",
+          "ifquery",
+          "ifquery-ac",
+          "ifquery-ra",
+          "l2.show",
+          "mlxlink",
+          "mlxreg",
+          "pim.interfaces",
+          "pim.intf",
+          "pim.multicast",
+          "pim.neighbors",
+          "pim.state",
+          "pim.upstream",
+          "port.counters.show",
+          "port.info.show",
+          "port.isolate.show",
+          "ssd_health.show",
+          "switchd.time"
+        ],
+        "file_count": 25,
+        "data_count": 64,
+        "data_source": "parsed_data",
+        "composite_name": "composite_interfaces_info",
+        "description": "Composite Interfaces from discovered sources"
+      }
+    },
+    "composite_lldp_info": {
+      "_metadata": {
+        "category": "lldp",
+        "source_files": [
+          "lldp",
+          "lldp.*",
+          "lldp.time",
+          "lldpctl"
+        ],
+        "file_count": 4,
+        "composite_name": "composite_lldp_info",
+        "description": "Composite Lldp from discovered sources",
+        "note": "Parser not yet implemented - showing file list only",
+        "data_count": 0,
+        "has_data": false
+      }
+    },
+    "composite_platform_info": {
+      "_metadata": {
+        "category": "platform",
+        "source_files": [
+          " decode-syseeprom.psu1",
+          "csmgr.show",
+          "decode-syseeprom",
+          "decode-syseeprom.psu2",
+          "evpn.local_mac.all",
+          "kernel.tainted",
+          "mlxfwversion",
+          "mst.mt53100_pci_cr0",
+          "mst.mt53100_pciconf0",
+          "platform.detect",
+          "sensors",
+          "system"
+        ],
+        "file_count": 12,
+        "composite_name": "composite_platform_info",
+        "description": "Composite Platform from discovered sources",
+        "note": "Parser not yet implemented - showing file list only",
+        "data_count": 0,
+        "has_data": false
+      }
+    },
+    "composite_system_info": {
+      "_metadata": {
+        "category": "system",
+        "source_files": [
+          "bios",
+          "blkid",
+          "cpu-vulnerabilities",
+          "df",
+          "dmesg",
+          "free",
+          "gdb",
+          "lastlog",
+          "resources",
+          "smart",
+          "switchd",
+          "systemd.delta",
+          "systemd.journal",
+          "systemd.status",
+          "uptime"
+        ],
+        "file_count": 15,
+        "composite_name": "composite_system_info",
+        "description": "Composite System from discovered sources",
+        "note": "Parser not yet implemented - showing file list only",
+        "data_count": 0,
+        "has_data": false
+      }
+    },
+    "composite_logs_info": {
+      "_metadata": {
+        "category": "logs",
+        "source_files": [
+          "*.log",
+          "brctl.show",
+          "evpn.es_evi.detail",
+          "evpn.nhg",
+          "frr.show_log",
+          "kernel.tainted",
+          "ledmgrd",
+          "port.pktdist.show",
+          "ptmd",
+          "ptmd.time",
+          "pvrst.debug",
+          "qos.dscp.show",
+          "qos.pg.show",
+          "qos.roce.status",
+          "qos.traffic_class.show",
+          "switchd.stack.*",
+          "switchd.stack.1",
+          "switchd.stack.2",
+          "syslog",
+          "systemd.failed",
+          "systemd.journal",
+          "systemd.unitfiles",
+          "traps.copp.stats",
+          "zebra.intf"
+        ],
+        "file_count": 24,
+        "composite_name": "composite_logs_info",
+        "description": "Composite Logs from discovered sources",
+        "note": "Parser not yet implemented - showing file list only",
+        "data_count": 0,
+        "has_data": false
+      }
+    },
+    "composite_qos_info": {
+      "_data": {
+        "swp1s0": {
+          "interface": "swp1s0",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 50000
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp1s1": {
+          "interface": "swp1s1",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 412
+            }
+          }
+        },
+        "swp1s2": {
+          "interface": "swp1s2",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 333
+            }
+          }
+        },
+        "swp1s3": {
+          "interface": "swp1s3",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 334
+            }
+          }
+        },
+        "swp2": {
+          "interface": "swp2",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp3": {
+          "interface": "swp3",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp4": {
+          "interface": "swp4",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp5": {
+          "interface": "swp5",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp6": {
+          "interface": "swp6",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp7": {
+          "interface": "swp7",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp8": {
+          "interface": "swp8",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp9": {
+          "interface": "swp9",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp10": {
+          "interface": "swp10",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp11": {
+          "interface": "swp11",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp12": {
+          "interface": "swp12",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp13": {
+          "interface": "swp13",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp14": {
+          "interface": "swp14",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp15": {
+          "interface": "swp15",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp16": {
+          "interface": "swp16",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp17": {
+          "interface": "swp17",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp18": {
+          "interface": "swp18",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp19": {
+          "interface": "swp19",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp20": {
+          "interface": "swp20",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp21": {
+          "interface": "swp21",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp22": {
+          "interface": "swp22",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp23": {
+          "interface": "swp23",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp24": {
+          "interface": "swp24",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp25": {
+          "interface": "swp25",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp26": {
+          "interface": "swp26",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp27": {
+          "interface": "swp27",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp28": {
+          "interface": "swp28",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp29": {
+          "interface": "swp29",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp30": {
+          "interface": "swp30",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp31s0": {
+          "interface": "swp31s0",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 292
+            }
+          }
+        },
+        "swp31s1": {
+          "interface": "swp31s1",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 295
+            }
+          }
+        },
+        "swp31s2": {
+          "interface": "swp31s2",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp31s3": {
+          "interface": "swp31s3",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        },
+        "swp32": {
+          "interface": "swp32",
+          "qos_egress_counters": {
+            "tc0": {
+              "tx_frames": 0
+            },
+            "tc7": {
+              "tx_frames": 0
+            }
+          }
+        }
+      },
+      "_metadata": {
+        "category": "qos",
+        "source_files": [
+          "qos.*",
+          "qos.buffers.port_res_counters.show",
+          "qos.counters.show",
+          "qos.default_port_prio.show",
+          "qos.dscp.show",
+          "qos.dscp_remark.show",
+          "qos.fc.show",
+          "qos.pcpdei_remark.show",
+          "qos.pg.show",
+          "qos.roce.counters",
+          "qos.roce.status",
+          "qos.roce.system_status",
+          "qos.scheduler.show",
+          "qos.traffic_class.show"
+        ],
+        "file_count": 14,
+        "data_count": 38,
+        "data_source": "parsed_data",
+        "composite_name": "composite_qos_info",
+        "description": "Composite Qos from discovered sources"
+      }
+    },
+    "composite_evpn_info": {
+      "_metadata": {
+        "category": "evpn",
+        "source_files": [
+          "bgp.evn.importrt",
+          "bridge.fdb",
+          "evpn.*",
+          "evpn.arp_cache.vni",
+          "evpn.arp_nd_redirect",
+          "evpn.es.detail",
+          "evpn.es_evi.detail",
+          "evpn.l2_nh",
+          "evpn.mac.vni",
+          "evpn.nexthop.vni",
+          "evpn.rmac.vni",
+          "evpn.rnecast",
+          "evpn.vlan.vni",
+          "evpn.vni.detail",
+          "frr.show_log",
+          "pim.mlag.interface",
+          "zebra.csm"
+        ],
+        "file_count": 17,
+        "composite_name": "composite_evpn_info",
+        "description": "Composite Evpn from discovered sources",
+        "note": "Parser not yet implemented - showing file list only",
+        "data_count": 0,
+        "has_data": false
+      }
+    },
+    "composite_other_info": {
+      "_metadata": {
+        "category": "other",
+        "source_files": [
+          "asic-monitor.dump",
+          "bgp.evpn.route.vni.all",
+          "bgp.summary",
+          "cl-netstat",
+          "clag.cc",
+          "clag.debug",
+          "clag.status",
+          "clag.time",
+          "dot1x.time",
+          "dpkg.installed",
+          "frr.debug_hashtable",
+          "frr.thread_cpu",
+          "frr.thread_poll",
+          "hw-mgmt-dump",
+          "l2mc.show",
+          "l3.route.count",
+          "lsb_release",
+          "mstp.show",
+          "netstat-a",
+          "nv-gnmid",
+          "nvue",
+          "onie-version",
+          "pbr.map",
+          "pbr.nhop.group",
+          "pim.msdp.peer",
+          "pim.vxlan.sg",
+          "ps.aux",
+          "slabtop",
+          "switchd.stack.3",
+          "sx_api_flex_acl_dump.txt",
+          "system.time",
+          "tc.qdisc",
+          "time.associations",
+          "time.sysinfo",
+          "vmstat",
+          "vmstat.m"
+        ],
+        "file_count": 36,
+        "composite_name": "composite_other_info",
+        "description": "Composite Other from discovered sources",
+        "note": "Parser not yet implemented - showing file list only",
+        "data_count": 0,
+        "has_data": false
+      }
+    }
+  },
+  "composite_bgp_routes_info": {
+    "60.1.220.223/32": {
+      "prefix": "60.1.220.223/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.220.223/32",
+          "nexthop": "6.0.0.31",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "6.0.0.28/32": {
+      "prefix": "6.0.0.28/32",
+      "sources": {
+        "bgp": {
+          "prefix": "6.0.0.28/32",
+          "nexthop": "0.0.0.0",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "32768",
+          "as_path_list": [
+            "32768"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "32768",
+      "as_path_list": [
+        "32768"
+      ]
+    },
+    "50.1.220.224/32": {
+      "prefix": "50.1.220.224/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.220.224/32",
+          "nexthop": "6.0.0.31",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "60.1.1.211/32": {
+      "prefix": "60.1.1.211/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.1.211/32",
+          "nexthop": "6.0.0.30",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "60.1.120.123/32": {
+      "prefix": "60.1.120.123/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.120.123/32",
+          "nexthop": "6.0.0.29",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.1.222/32": {
+      "prefix": "50.1.1.222/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.1.222/32",
+          "nexthop": "6.0.0.31",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "81.0.0.5/32": {
+      "prefix": "81.0.0.5/32",
+      "sources": {
+        "bgp": {
+          "prefix": "81.0.0.5/32",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.1.212/32": {
+      "prefix": "50.1.1.212/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.1.212/32",
+          "nexthop": "6.0.0.30",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.1.122/32": {
+      "prefix": "50.1.1.122/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.1.122/32",
+          "nexthop": "6.0.0.29",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "650000",
+          "as_path_list": [
+            "650000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "650000",
+      "as_path_list": [
+        "650000"
+      ]
+    },
+    "81.1.1.0/24": {
+      "prefix": "81.1.1.0/24",
+      "sources": {
+        "bgp": {
+          "prefix": "81.1.1.0/24",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "655000",
+      "as_path_list": [
+        "655000"
+      ]
+    },
+    "60.1.1.221/32": {
+      "prefix": "60.1.1.221/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.1.221/32",
+          "nexthop": "6.0.0.31",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.120.124/32": {
+      "prefix": "50.1.120.124/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.120.124/32",
+          "nexthop": "6.0.0.29",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "81.1.4.0/24": {
+      "prefix": "81.1.4.0/24",
+      "sources": {
+        "bgp": {
+          "prefix": "81.1.4.0/24",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "655000",
+      "as_path_list": [
+        "655000"
+      ]
+    },
+    "60.1.210.213/32": {
+      "prefix": "60.1.210.213/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.210.213/32",
+          "nexthop": "6.0.0.30",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.210.214/32": {
+      "prefix": "50.1.210.214/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.210.214/32",
+          "nexthop": "6.0.0.30",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "81.1.2.0/24": {
+      "prefix": "81.1.2.0/24",
+      "sources": {
+        "bgp": {
+          "prefix": "81.1.2.0/24",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "655000",
+      "as_path_list": [
+        "655000"
+      ]
+    },
+    "60.1.1.121/32": {
+      "prefix": "60.1.1.121/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.1.121/32",
+          "nexthop": "6.0.0.29",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "81.1.3.0/24": {
+      "prefix": "81.1.3.0/24",
+      "sources": {
+        "bgp": {
+          "prefix": "81.1.3.0/24",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "655000",
+      "as_path_list": [
+        "655000"
+      ]
+    }
+  },
+  "composite_bgp_routes_info_metadata": {
+    "category": "bgp_routes",
+    "source_files": [
+      "bgp.evn route.vni.all",
+      "bgp.evpn.",
+      "bgp.evpn.es_evi.detail",
+      "bgp.evpn.importrt",
+      "bgp.evpn.nexthops",
+      "bgp.evpn.update_group",
+      "bgp.ipv4_vpn_route_leak",
+      "bgp.ipv6_route",
+      "bgp.ipv6_vpn_all",
+      "bgp.ipv6_vpn_route_leak",
+      "bgp.neighbors",
+      "bgp.route",
+      "bgp.update_group"
+    ],
+    "file_count": 13,
+    "data_count": 18,
+    "data_source": "parsed_data",
+    "composite_name": "composite_bgp_routes_info",
+    "description": "Composite Bgp Routes from discovered sources"
+  },
+  "composite_neighbors_info": {
+    "6.0.0.26": {
+      "neighbor_ip": "6.0.0.26",
+      "state": "Established",
+      "remote_as": 650000
+    },
+    "6.0.0.27": {
+      "neighbor_ip": "6.0.0.27",
+      "state": "Established",
+      "remote_as": 650000
+    }
+  },
+  "composite_neighbors_info_metadata": {
+    "category": "bgp_neighbors",
+    "source_files": [
+      "bgp.evn.route.vni.all",
+      "bgp.evpn.es_evi.detail",
+      "bgp.evpn.nexthops",
+      "bgp.evpn.route.mac_ip_evi_es",
+      "bgp.ipv6_soo",
+      "bgp.neighbors"
+    ],
+    "file_count": 6,
+    "data_count": 2,
+    "data_source": "parsed_data",
+    "composite_name": "composite_neighbors_info",
+    "description": "Composite Bgp Neighbors from discovered sources"
+  },
+  "composite_bgp_evpn_info": {
+    "_metadata": {
+      "category": "bgp_evpn",
+      "source_files": [
+        "bgp.evn.*",
+        "bgp.evn.nexthops",
+        "bgp.evn.route.vni.all",
+        "bgp.evnv.vrfimportrt",
+        "bgp.evpn.",
+        "bgp.evpn.*",
+        "bgp.evpn.detail",
+        "bgp.evpn.es_evi.detail",
+        "bgp.evpn.nexthops",
+        "bgp.evpn.route",
+        "bgp.evpn.route.mac_ip_global_es",
+        "bgp.evpn.route.vni.all",
+        "bgp.evpn.summary",
+        "bgp.ipv6_vpn_all",
+        "bgp.ipv6_vpn_route_leak",
+        "evpn.arp_cache.vni",
+        "evpn.vni.detail"
+      ],
+      "file_count": 17,
+      "composite_name": "composite_bgp_evpn_info",
+      "description": "Composite Bgp Evpn from discovered sources",
+      "note": "Parser not yet implemented - showing file list only",
+      "data_count": 0,
+      "has_data": false
+    }
+  },
+  "composite_ospf_info": {
+    "_metadata": {
+      "category": "ospf",
+      "source_files": [
+        "ospf.",
+        "ospf.*",
+        "ospf.borderrouters",
+        "ospf.database",
+        "ospf.database.router",
+        "ospf.interface",
+        "ospf.show_running",
+        "ospf6",
+        "ospf6.database.router",
+        "ospf6.neighbor",
+        "ospf6.redistribute",
+        "ospf6.route_summary",
+        "ospf6.show_running",
+        "ospf6.spf.tree"
+      ],
+      "file_count": 14,
+      "composite_name": "composite_ospf_info",
+      "description": "Composite Ospf from discovered sources",
+      "note": "Parser not yet implemented - showing file list only",
+      "data_count": 0,
+      "has_data": false
+    }
+  },
+  "composite_zebra_rib_info": {
+    "_metadata": {
+      "category": "zebra_rib",
+      "source_files": [
+        "z bra.tribe",
+        "zebra.ipv6_nht",
+        "zebra.metaq",
+        "zebra.nhg",
+        "zebra.route",
+        "zebra.vrf",
+        "zebra.vrf.vni"
+      ],
+      "file_count": 7,
+      "composite_name": "composite_zebra_rib_info",
+      "description": "Composite Zebra Rib from discovered sources",
+      "note": "Parser not yet implemented - showing file list only",
+      "data_count": 0,
+      "has_data": false
+    }
+  },
+  "composite_kernel_routes_info": {
+    "60.1.220.223/32": {
+      "prefix": "60.1.220.223/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.220.223/32",
+          "nexthop": "6.0.0.31",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "6.0.0.28/32": {
+      "prefix": "6.0.0.28/32",
+      "sources": {
+        "bgp": {
+          "prefix": "6.0.0.28/32",
+          "nexthop": "0.0.0.0",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "32768",
+          "as_path_list": [
+            "32768"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "32768",
+      "as_path_list": [
+        "32768"
+      ]
+    },
+    "50.1.220.224/32": {
+      "prefix": "50.1.220.224/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.220.224/32",
+          "nexthop": "6.0.0.31",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "60.1.1.211/32": {
+      "prefix": "60.1.1.211/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.1.211/32",
+          "nexthop": "6.0.0.30",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "60.1.120.123/32": {
+      "prefix": "60.1.120.123/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.120.123/32",
+          "nexthop": "6.0.0.29",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.1.222/32": {
+      "prefix": "50.1.1.222/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.1.222/32",
+          "nexthop": "6.0.0.31",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "81.0.0.5/32": {
+      "prefix": "81.0.0.5/32",
+      "sources": {
+        "bgp": {
+          "prefix": "81.0.0.5/32",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.1.212/32": {
+      "prefix": "50.1.1.212/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.1.212/32",
+          "nexthop": "6.0.0.30",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.1.122/32": {
+      "prefix": "50.1.1.122/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.1.122/32",
+          "nexthop": "6.0.0.29",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "650000",
+          "as_path_list": [
+            "650000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "650000",
+      "as_path_list": [
+        "650000"
+      ]
+    },
+    "81.1.1.0/24": {
+      "prefix": "81.1.1.0/24",
+      "sources": {
+        "bgp": {
+          "prefix": "81.1.1.0/24",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "655000",
+      "as_path_list": [
+        "655000"
+      ]
+    },
+    "60.1.1.221/32": {
+      "prefix": "60.1.1.221/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.1.221/32",
+          "nexthop": "6.0.0.31",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.120.124/32": {
+      "prefix": "50.1.120.124/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.120.124/32",
+          "nexthop": "6.0.0.29",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "81.1.4.0/24": {
+      "prefix": "81.1.4.0/24",
+      "sources": {
+        "bgp": {
+          "prefix": "81.1.4.0/24",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "655000",
+      "as_path_list": [
+        "655000"
+      ]
+    },
+    "60.1.210.213/32": {
+      "prefix": "60.1.210.213/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.210.213/32",
+          "nexthop": "6.0.0.30",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "50.1.210.214/32": {
+      "prefix": "50.1.210.214/32",
+      "sources": {
+        "bgp": {
+          "prefix": "50.1.210.214/32",
+          "nexthop": "6.0.0.30",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "81.1.2.0/24": {
+      "prefix": "81.1.2.0/24",
+      "sources": {
+        "bgp": {
+          "prefix": "81.1.2.0/24",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "655000",
+      "as_path_list": [
+        "655000"
+      ]
+    },
+    "60.1.1.121/32": {
+      "prefix": "60.1.1.121/32",
+      "sources": {
+        "bgp": {
+          "prefix": "60.1.1.121/32",
+          "nexthop": "6.0.0.29",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "100 0",
+          "as_path_list": [
+            "100",
+            "0"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "100 0",
+      "as_path_list": [
+        "100",
+        "0"
+      ]
+    },
+    "81.1.3.0/24": {
+      "prefix": "81.1.3.0/24",
+      "sources": {
+        "bgp": {
+          "prefix": "81.1.3.0/24",
+          "nexthop": "6.0.0.26",
+          "source": "bgp",
+          "protocol": "bgp",
+          "as_path": "655000",
+          "as_path_list": [
+            "655000"
+          ]
+        }
+      },
+      "layer_status": {
+        "in_kernel": false,
+        "in_bgp": true
+      },
+      "as_path": "655000",
+      "as_path_list": [
+        "655000"
+      ]
+    }
+  },
+  "composite_kernel_routes_info_metadata": {
+    "category": "kernel_routes",
+    "source_files": [
+      "ip.route",
+      "l3.neigh",
+      "l3.neigh.show",
+      "l3.neigh6.show",
+      "l3.route.count",
+      "l3.route.show",
+      "netstat-s",
+      "time.associations",
+      "time.kerninfo",
+      "time.sysinfo"
+    ],
+    "file_count": 10,
+    "data_count": 18,
+    "data_source": "parsed_data",
+    "composite_name": "composite_kernel_routes_info",
+    "description": "Composite Kernel Routes from discovered sources"
+  },
+  "composite_kernel_interfaces_info": {
+    "_metadata": {
+      "category": "kernel_interfaces",
+      "source_files": [
+        "bridge.vlan",
+        "bridge.vni",
+        "ip.addr",
+        "ip.link",
+        "ip.nexthop",
+        "ip6.mroute-all",
+        "ip6.route",
+        "ip6.routecache",
+        "netlink.dbg",
+        "netstat-a"
+      ],
+      "file_count": 10,
+      "composite_name": "composite_kernel_interfaces_info",
+      "description": "Composite Kernel Interfaces from discovered sources",
+      "note": "Parser not yet implemented - showing file list only",
+      "data_count": 0,
+      "has_data": false
+    }
+  },
+  "composite_frr_config_info": {
+    "_metadata": {
+      "category": "frr_config",
+      "source_files": [
+        "frr.bgp_yang",
+        "frr.conf",
+        "frr.memory",
+        "frr.modules",
+        "frr.show_log",
+        "frr.show_running",
+        "frr.show_ver",
+        "frr.thread_cpu",
+        "frr.thread_poll",
+        "frr.work_queues"
+      ],
+      "file_count": 10,
+      "composite_name": "composite_frr_config_info",
+      "description": "Composite Frr Config from discovered sources",
+      "note": "Parser not yet implemented - showing file list only",
+      "data_count": 0,
+      "has_data": false
+    }
+  },
+  "composite_frr_system_info": {
+    "_metadata": {
+      "category": "frr_system",
+      "source_files": [
+        "frr.memory",
+        "frr.modules",
+        "frr.systemd.analyze_blame",
+        "frr.thread_poll"
+      ],
+      "file_count": 4,
+      "composite_name": "composite_frr_system_info",
+      "description": "Composite Frr System from discovered sources",
+      "note": "Parser not yet implemented - showing file list only",
+      "data_count": 0,
+      "has_data": false
+    }
+  },
+  "composite_interfaces_info_metadata": {
+    "category": "interfaces",
+    "source_files": [
+      "bridge.*",
+      "bridge.link",
+      "bridge.mdb",
+      "bridge.tunnel",
+      "bridge.vlan",
+      "ethtool.*",
+      "ethtool.stats",
+      "ext4frag.info",
+      "ifquery",
+      "ifquery-ac",
+      "ifquery-ra",
+      "l2.show",
+      "mlxlink",
+      "mlxreg",
+      "pim.interfaces",
+      "pim.intf",
+      "pim.multicast",
+      "pim.neighbors",
+      "pim.state",
+      "pim.upstream",
+      "port.counters.show",
+      "port.info.show",
+      "port.isolate.show",
+      "ssd_health.show",
+      "switchd.time"
+    ],
+    "file_count": 25,
+    "data_count": 64,
+    "data_source": "parsed_data",
+    "composite_name": "composite_interfaces_info",
+    "description": "Composite Interfaces from discovered sources"
+  },
+  "composite_lldp_info": {
+    "_metadata": {
+      "category": "lldp",
+      "source_files": [
+        "lldp",
+        "lldp.*",
+        "lldp.time",
+        "lldpctl"
+      ],
+      "file_count": 4,
+      "composite_name": "composite_lldp_info",
+      "description": "Composite Lldp from discovered sources",
+      "note": "Parser not yet implemented - showing file list only",
+      "data_count": 0,
+      "has_data": false
+    }
+  },
+  "composite_platform_info": {
+    "_metadata": {
+      "category": "platform",
+      "source_files": [
+        " decode-syseeprom.psu1",
+        "csmgr.show",
+        "decode-syseeprom",
+        "decode-syseeprom.psu2",
+        "evpn.local_mac.all",
+        "kernel.tainted",
+        "mlxfwversion",
+        "mst.mt53100_pci_cr0",
+        "mst.mt53100_pciconf0",
+        "platform.detect",
+        "sensors",
+        "system"
+      ],
+      "file_count": 12,
+      "composite_name": "composite_platform_info",
+      "description": "Composite Platform from discovered sources",
+      "note": "Parser not yet implemented - showing file list only",
+      "data_count": 0,
+      "has_data": false
+    }
+  },
+  "composite_system_info": {
+    "_metadata": {
+      "category": "system",
+      "source_files": [
+        "bios",
+        "blkid",
+        "cpu-vulnerabilities",
+        "df",
+        "dmesg",
+        "free",
+        "gdb",
+        "lastlog",
+        "resources",
+        "smart",
+        "switchd",
+        "systemd.delta",
+        "systemd.journal",
+        "systemd.status",
+        "uptime"
+      ],
+      "file_count": 15,
+      "composite_name": "composite_system_info",
+      "description": "Composite System from discovered sources",
+      "note": "Parser not yet implemented - showing file list only",
+      "data_count": 0,
+      "has_data": false
+    }
+  },
+  "composite_logs_info": {
+    "_metadata": {
+      "category": "logs",
+      "source_files": [
+        "*.log",
+        "brctl.show",
+        "evpn.es_evi.detail",
+        "evpn.nhg",
+        "frr.show_log",
+        "kernel.tainted",
+        "ledmgrd",
+        "port.pktdist.show",
+        "ptmd",
+        "ptmd.time",
+        "pvrst.debug",
+        "qos.dscp.show",
+        "qos.pg.show",
+        "qos.roce.status",
+        "qos.traffic_class.show",
+        "switchd.stack.*",
+        "switchd.stack.1",
+        "switchd.stack.2",
+        "syslog",
+        "systemd.failed",
+        "systemd.journal",
+        "systemd.unitfiles",
+        "traps.copp.stats",
+        "zebra.intf"
+      ],
+      "file_count": 24,
+      "composite_name": "composite_logs_info",
+      "description": "Composite Logs from discovered sources",
+      "note": "Parser not yet implemented - showing file list only",
+      "data_count": 0,
+      "has_data": false
+    }
+  },
+  "composite_qos_info_metadata": {
+    "category": "qos",
+    "source_files": [
+      "qos.*",
+      "qos.buffers.port_res_counters.show",
+      "qos.counters.show",
+      "qos.default_port_prio.show",
+      "qos.dscp.show",
+      "qos.dscp_remark.show",
+      "qos.fc.show",
+      "qos.pcpdei_remark.show",
+      "qos.pg.show",
+      "qos.roce.counters",
+      "qos.roce.status",
+      "qos.roce.system_status",
+      "qos.scheduler.show",
+      "qos.traffic_class.show"
+    ],
+    "file_count": 14,
+    "data_count": 38,
+    "data_source": "parsed_data",
+    "composite_name": "composite_qos_info",
+    "description": "Composite Qos from discovered sources"
+  },
+  "composite_evpn_info_metadata": {
+    "category": "evpn",
+    "source_files": [
+      "bgp.evn.importrt",
+      "bridge.fdb",
+      "evpn.*",
+      "evpn.arp_cache.vni",
+      "evpn.arp_nd_redirect",
+      "evpn.es.detail",
+      "evpn.es_evi.detail",
+      "evpn.l2_nh",
+      "evpn.mac.vni",
+      "evpn.nexthop.vni",
+      "evpn.rmac.vni",
+      "evpn.rnecast",
+      "evpn.vlan.vni",
+      "evpn.vni.detail",
+      "frr.show_log",
+      "pim.mlag.interface",
+      "zebra.csm"
+    ],
+    "file_count": 17,
+    "composite_name": "composite_evpn_info",
+    "description": "Composite Evpn from discovered sources",
+    "data_count": 46,
+    "has_data": true,
+    "data_source": "parsed_data"
+  },
+  "composite_other_info": {
+    "_metadata": {
+      "category": "other",
+      "source_files": [
+        "asic-monitor.dump",
+        "bgp.evpn.route.vni.all",
+        "bgp.summary",
+        "cl-netstat",
+        "clag.cc",
+        "clag.debug",
+        "clag.status",
+        "clag.time",
+        "dot1x.time",
+        "dpkg.installed",
+        "frr.debug_hashtable",
+        "frr.thread_cpu",
+        "frr.thread_poll",
+        "hw-mgmt-dump",
+        "l2mc.show",
+        "l3.route.count",
+        "lsb_release",
+        "mstp.show",
+        "netstat-a",
+        "nv-gnmid",
+        "nvue",
+        "onie-version",
+        "pbr.map",
+        "pbr.nhop.group",
+        "pim.msdp.peer",
+        "pim.vxlan.sg",
+        "ps.aux",
+        "slabtop",
+        "switchd.stack.3",
+        "sx_api_flex_acl_dump.txt",
+        "system.time",
+        "tc.qdisc",
+        "time.associations",
+        "time.sysinfo",
+        "vmstat",
+        "vmstat.m"
+      ],
+      "file_count": 36,
+      "composite_name": "composite_other_info",
+      "description": "Composite Other from discovered sources",
+      "note": "Parser not yet implemented - showing file list only",
+      "data_count": 0,
+      "has_data": false
+    }
+  },
+  "_schema_metadata": {
+    "validation_types": [
+      "net_bgp_kernel_route_sync",
+      "net_bgp_as_path_loop",
+      "net_bgp_neighbor_down",
+      "net_bgp_neighbor_established",
+      "net_bgp_per_src_nhg_misconfig",
+      "net_bgp_control_traffic_qos",
+      "net_evpn_vni_consistency",
+      "net_evpn_mac_route_advertisement",
+      "net_evpn_ip_route_advertisement",
+      "net_evpn_bgp_neighbor_down",
+      "net_clag_evpn_sync",
+      "net_evpn_vtep_discovery",
+      "net_evpn_symmetric_routing",
+      "net_bgp_blackhole_route_conflict",
+      "net_bgp_policy_violation"
+    ],
+    "total_pattern_definitions": 15,
+    "patterns": [
+      {
+        "id": "net_bgp_kernel_route_sync",
+        "name": "BGP Route Missing in Kernel",
+        "category": "routing",
+        "severity": "warning"
+      },
+      {
+        "id": "net_bgp_as_path_loop",
+        "name": "BGP AS path loop",
+        "category": "routing",
+        "severity": "high"
+      },
+      {
+        "id": "net_bgp_neighbor_down",
+        "name": "BGP Neighbor Session Down",
+        "category": "connectivity",
+        "severity": "critical"
+      },
+      {
+        "id": "net_bgp_neighbor_established",
+        "name": "BGP Neighbor Established",
+        "category": "connectivity",
+        "severity": "info"
+      },
+      {
+        "id": "net_bgp_per_src_nhg_misconfig",
+        "name": "BGP Per-Source Nexthop Group Misconfiguration",
+        "category": "routing",
+        "severity": "warning"
+      },
+      {
+        "id": "net_bgp_control_traffic_qos",
+        "name": "BGP Control Traffic QoS Classification",
+        "category": "routing",
+        "severity": "warning"
+      },
+      {
+        "id": "net_evpn_vni_consistency",
+        "name": "EVPN VNI Consistency",
+        "category": "evpn",
+        "severity": "warning"
+      },
+      {
+        "id": "net_evpn_mac_route_advertisement",
+        "name": "EVPN MAC Route Advertisement (Type-2)",
+        "category": "evpn",
+        "severity": "warning"
+      },
+      {
+        "id": "net_evpn_ip_route_advertisement",
+        "name": "EVPN IP Route Advertisement (Type-5)",
+        "category": "evpn",
+        "severity": "warning"
+      },
+      {
+        "id": "net_evpn_bgp_neighbor_down",
+        "name": "EVPN BGP Neighbor Session Down",
+        "category": "evpn",
+        "severity": "critical"
+      },
+      {
+        "id": "net_clag_evpn_sync",
+        "name": "CLAG EVPN Synchronization",
+        "category": "evpn",
+        "severity": "warning"
+      },
+      {
+        "id": "net_evpn_vtep_discovery",
+        "name": "EVPN VTEP Discovery",
+        "category": "evpn",
+        "severity": "warning"
+      },
+      {
+        "id": "net_evpn_symmetric_routing",
+        "name": "EVPN Symmetric Routing",
+        "category": "evpn",
+        "severity": "info"
+      },
+      {
+        "id": "net_bgp_blackhole_route_conflict",
+        "name": "BGP Blackhole Route Conflict",
+        "category": "routing",
+        "severity": "high"
+      },
+      {
+        "id": "net_bgp_policy_violation",
+        "name": "BGP Policy Violation",
+        "category": "routing",
+        "severity": "warning"
+      }
+    ]
+  }
+}
