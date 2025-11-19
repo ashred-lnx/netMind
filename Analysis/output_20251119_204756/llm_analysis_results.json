@@ -1,0 +1,1032 @@
+{
+  "results": [
+    {
+      "prefix": "1.0.0.1/32",
+      "is_anomaly": false,
+      "error": "LLM call timeout"
+    },
+    {
+      "is_validation": true,
+      "is_anomaly": true,
+      "validation_type": "net_bgp_policy_violation",
+      "severity": "critical",
+      "confidence": 1.0,
+      "reasoning": "STEP 1: Checked policy_action - policy_action='deny' \u2192 net_bgp_policy_violation anomaly detected.",
+      "remediation": "Use clear bgp soft-config to refresh the routes",
+      "anomaly_type": "net_bgp_policy_violation",
+      "prefix": "1.0.0.12/32",
+      "route_data": {
+        "prefix": "1.0.0.12/32",
+        "sources": {
+          "kernel": {
+            "prefix": "1.0.0.12/32",
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "source": "kernel"
+          },
+          "bgp": {
+            "prefix": "1.0.0.12/32",
+            "nexthop": null,
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "6500 65002",
+            "as_path_list": [
+              "6500",
+              "65002"
+            ],
+            "policy_action": "deny",
+            "route_map": {
+              "name": "BLOCK_LEAF12",
+              "action": "deny",
+              "type": "filter-list",
+              "matched_pattern": "_65002_"
+            }
+          }
+        },
+        "layer_status": {
+          "in_kernel": true,
+          "in_bgp": true
+        },
+        "as_path": "6500 65002",
+        "as_path_list": [
+          "6500",
+          "65002"
+        ],
+        "policy_action": "deny",
+        "route_map": {
+          "name": "BLOCK_LEAF12",
+          "action": "deny",
+          "type": "filter-list",
+          "matched_pattern": "_65002_"
+        },
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": null,
+            "as_path": "6500 65002",
+            "as_path_list": [
+              "6500",
+              "65002"
+            ]
+          },
+          "kernel": {
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "type": null
+          }
+        }
+      }
+    },
+    {
+      "is_validation": false,
+      "is_anomaly": false,
+      "validation_type": null,
+      "severity": "info",
+      "confidence": 1.0,
+      "reasoning": "Checked routing_protocols.bgp.advertised - true \u2192 BGP route exists. Checked policy_action and route_map.action - not present in data \u2192 no policy violation detected. Checked kernel.protocol and kernel.nexthop - kernel.protocol='bgp' (not 'static') \u2192 no blackhole conflict detected.",
+      "root_cause": "",
+      "impact": [],
+      "remediation": [],
+      "prefix": "1.0.0.11/32",
+      "route_data": {
+        "prefix": "1.0.0.11/32",
+        "sources": {
+          "bgp": {
+            "prefix": "1.0.0.11/32",
+            "nexthop": "0.0.0.0",
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "32768",
+            "as_path_list": [
+              "32768"
+            ]
+          }
+        },
+        "layer_status": {
+          "in_kernel": false,
+          "in_bgp": true
+        },
+        "as_path": "32768",
+        "as_path_list": [
+          "32768"
+        ],
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": "0.0.0.0",
+            "as_path": "32768",
+            "as_path_list": [
+              "32768"
+            ]
+          }
+        },
+        "nexthop": "0.0.0.0"
+      }
+    },
+    {
+      "is_validation": false,
+      "is_anomaly": false,
+      "validation_type": null,
+      "reasoning": "STEP 1: Checked routing_protocols.bgp.advertised. IF bgp.advertised == true, check policy_action and route_map.action. Since bgp.advertised is true, proceed to STEP 2.",
+      "severity": "info",
+      "confidence": 0.95,
+      "prefix": "1.0.0.2/32",
+      "route_data": {
+        "prefix": "1.0.0.2/32",
+        "sources": {
+          "kernel": {
+            "prefix": "1.0.0.2/32",
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "source": "kernel"
+          },
+          "bgp": {
+            "prefix": "1.0.0.2/32",
+            "nexthop": null,
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "6500",
+            "as_path_list": [
+              "6500"
+            ]
+          }
+        },
+        "layer_status": {
+          "in_kernel": true,
+          "in_bgp": true
+        },
+        "as_path": "6500",
+        "as_path_list": [
+          "6500"
+        ],
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": null,
+            "as_path": "6500",
+            "as_path_list": [
+              "6500"
+            ]
+          },
+          "kernel": {
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "type": null
+          }
+        }
+      }
+    },
+    {
+      "is_validation": false,
+      "is_anomaly": false,
+      "validation_type": null,
+      "severity": "info",
+      "confidence": 1.0,
+      "reasoning": "STEP 1: Checked layer_status - in_kernel=true and in_bgp=true, no conflict detected. STEP 2: Checked routing_protocols - bgp protocol is advertised and valid.",
+      "root_cause": "",
+      "impact": [],
+      "remediation": [],
+      "prefix": "1.0.0.21/32",
+      "route_data": {
+        "prefix": "1.0.0.21/32",
+        "sources": {
+          "kernel": {
+            "prefix": "1.0.0.21/32",
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "source": "kernel"
+          },
+          "bgp": {
+            "prefix": "1.0.0.21/32",
+            "nexthop": null,
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "6500 65003",
+            "as_path_list": [
+              "6500",
+              "65003"
+            ]
+          }
+        },
+        "layer_status": {
+          "in_kernel": true,
+          "in_bgp": true
+        },
+        "as_path": "6500 65003",
+        "as_path_list": [
+          "6500",
+          "65003"
+        ],
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": null,
+            "as_path": "6500 65003",
+            "as_path_list": [
+              "6500",
+              "65003"
+            ]
+          },
+          "kernel": {
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "type": null
+          }
+        }
+      }
+    },
+    {
+      "is_validation": false,
+      "is_anomaly": false,
+      "validation_type": null,
+      "reasoning": "Checked routing_protocols.bgp.advertised. bgp.advertised=true \u2192 no net_bgp_policy_violation detected. Checked layer_status.in_kernel and in_bgp. Both are true \u2192 no net_bgp_blackhole_route_conflict detected.",
+      "root_cause": "",
+      "impact": [],
+      "remediation": [],
+      "confidence": 0.0,
+      "severity": "info",
+      "prefix": "1.0.0.22/32",
+      "route_data": {
+        "prefix": "1.0.0.22/32",
+        "sources": {
+          "kernel": {
+            "prefix": "1.0.0.22/32",
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "source": "kernel"
+          },
+          "bgp": {
+            "prefix": "1.0.0.22/32",
+            "nexthop": null,
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "6500 65004",
+            "as_path_list": [
+              "6500",
+              "65004"
+            ]
+          }
+        },
+        "layer_status": {
+          "in_kernel": true,
+          "in_bgp": true
+        },
+        "as_path": "6500 65004",
+        "as_path_list": [
+          "6500",
+          "65004"
+        ],
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": null,
+            "as_path": "6500 65004",
+            "as_path_list": [
+              "6500",
+              "65004"
+            ]
+          },
+          "kernel": {
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "type": null
+          }
+        }
+      }
+    },
+    {
+      "is_validation": false,
+      "is_anomaly": false,
+      "validation_type": null,
+      "reasoning": "STEP 1: Checked routing_protocols.bgp.advertised. IF bgp.advertised == true, check policy_action and route_map.action. Since bgp.advertised is true, proceed to STEP 2.",
+      "severity": "info",
+      "confidence": 0.95,
+      "prefix": "1.0.0.3/32",
+      "route_data": {
+        "prefix": "1.0.0.3/32",
+        "sources": {
+          "kernel": {
+            "prefix": "1.0.0.3/32",
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "source": "kernel"
+          },
+          "bgp": {
+            "prefix": "1.0.0.3/32",
+            "nexthop": null,
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "6500",
+            "as_path_list": [
+              "6500"
+            ]
+          }
+        },
+        "layer_status": {
+          "in_kernel": true,
+          "in_bgp": true
+        },
+        "as_path": "6500",
+        "as_path_list": [
+          "6500"
+        ],
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": null,
+            "as_path": "6500",
+            "as_path_list": [
+              "6500"
+            ]
+          },
+          "kernel": {
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "type": null
+          }
+        }
+      }
+    },
+    {
+      "is_validation": false,
+      "is_anomaly": false,
+      "validation_type": null,
+      "reasoning": "Checked routing_protocols.bgp.advertised. bgp.advertised == true \u2192 Proceed with net_bgp_blackhole_route_conflict check. Checked routing_protocols.kernel.protocol. kernel.protocol == 'bgp' \u2192 Proceed with net_bgp_blackhole_route_conflict check. Checked layer_status.in_kernel and layer_status.in_bgp. in_kernel == true and in_bgp == true \u2192 No conflict found.",
+      "root_cause": "",
+      "impact": [],
+      "remediation": [],
+      "confidence": 0.0,
+      "severity": "info",
+      "prefix": "1.0.0.4/32",
+      "route_data": {
+        "prefix": "1.0.0.4/32",
+        "sources": {
+          "kernel": {
+            "prefix": "1.0.0.4/32",
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "source": "kernel"
+          },
+          "bgp": {
+            "prefix": "1.0.0.4/32",
+            "nexthop": null,
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "6500",
+            "as_path_list": [
+              "6500"
+            ]
+          }
+        },
+        "layer_status": {
+          "in_kernel": true,
+          "in_bgp": true
+        },
+        "as_path": "6500",
+        "as_path_list": [
+          "6500"
+        ],
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": null,
+            "as_path": "6500",
+            "as_path_list": [
+              "6500"
+            ]
+          },
+          "kernel": {
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "type": null
+          }
+        }
+      }
+    }
+  ],
+  "route_results": [
+    {
+      "prefix": "1.0.0.1/32",
+      "is_anomaly": false,
+      "error": "LLM call timeout"
+    },
+    {
+      "is_validation": true,
+      "is_anomaly": true,
+      "validation_type": "net_bgp_policy_violation",
+      "severity": "critical",
+      "confidence": 1.0,
+      "reasoning": "STEP 1: Checked policy_action - policy_action='deny' \u2192 net_bgp_policy_violation anomaly detected.",
+      "remediation": "Use clear bgp soft-config to refresh the routes",
+      "anomaly_type": "net_bgp_policy_violation",
+      "prefix": "1.0.0.12/32",
+      "route_data": {
+        "prefix": "1.0.0.12/32",
+        "sources": {
+          "kernel": {
+            "prefix": "1.0.0.12/32",
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "source": "kernel"
+          },
+          "bgp": {
+            "prefix": "1.0.0.12/32",
+            "nexthop": null,
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "6500 65002",
+            "as_path_list": [
+              "6500",
+              "65002"
+            ],
+            "policy_action": "deny",
+            "route_map": {
+              "name": "BLOCK_LEAF12",
+              "action": "deny",
+              "type": "filter-list",
+              "matched_pattern": "_65002_"
+            }
+          }
+        },
+        "layer_status": {
+          "in_kernel": true,
+          "in_bgp": true
+        },
+        "as_path": "6500 65002",
+        "as_path_list": [
+          "6500",
+          "65002"
+        ],
+        "policy_action": "deny",
+        "route_map": {
+          "name": "BLOCK_LEAF12",
+          "action": "deny",
+          "type": "filter-list",
+          "matched_pattern": "_65002_"
+        },
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": null,
+            "as_path": "6500 65002",
+            "as_path_list": [
+              "6500",
+              "65002"
+            ]
+          },
+          "kernel": {
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "type": null
+          }
+        }
+      }
+    },
+    {
+      "is_validation": false,
+      "is_anomaly": false,
+      "validation_type": null,
+      "severity": "info",
+      "confidence": 1.0,
+      "reasoning": "Checked routing_protocols.bgp.advertised - true \u2192 BGP route exists. Checked policy_action and route_map.action - not present in data \u2192 no policy violation detected. Checked kernel.protocol and kernel.nexthop - kernel.protocol='bgp' (not 'static') \u2192 no blackhole conflict detected.",
+      "root_cause": "",
+      "impact": [],
+      "remediation": [],
+      "prefix": "1.0.0.11/32",
+      "route_data": {
+        "prefix": "1.0.0.11/32",
+        "sources": {
+          "bgp": {
+            "prefix": "1.0.0.11/32",
+            "nexthop": "0.0.0.0",
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "32768",
+            "as_path_list": [
+              "32768"
+            ]
+          }
+        },
+        "layer_status": {
+          "in_kernel": false,
+          "in_bgp": true
+        },
+        "as_path": "32768",
+        "as_path_list": [
+          "32768"
+        ],
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": "0.0.0.0",
+            "as_path": "32768",
+            "as_path_list": [
+              "32768"
+            ]
+          }
+        },
+        "nexthop": "0.0.0.0"
+      }
+    },
+    {
+      "is_validation": false,
+      "is_anomaly": false,
+      "validation_type": null,
+      "reasoning": "STEP 1: Checked routing_protocols.bgp.advertised. IF bgp.advertised == true, check policy_action and route_map.action. Since bgp.advertised is true, proceed to STEP 2.",
+      "severity": "info",
+      "confidence": 0.95,
+      "prefix": "1.0.0.2/32",
+      "route_data": {
+        "prefix": "1.0.0.2/32",
+        "sources": {
+          "kernel": {
+            "prefix": "1.0.0.2/32",
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "source": "kernel"
+          },
+          "bgp": {
+            "prefix": "1.0.0.2/32",
+            "nexthop": null,
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "6500",
+            "as_path_list": [
+              "6500"
+            ]
+          }
+        },
+        "layer_status": {
+          "in_kernel": true,
+          "in_bgp": true
+        },
+        "as_path": "6500",
+        "as_path_list": [
+          "6500"
+        ],
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": null,
+            "as_path": "6500",
+            "as_path_list": [
+              "6500"
+            ]
+          },
+          "kernel": {
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "type": null
+          }
+        }
+      }
+    },
+    {
+      "is_validation": false,
+      "is_anomaly": false,
+      "validation_type": null,
+      "severity": "info",
+      "confidence": 1.0,
+      "reasoning": "STEP 1: Checked layer_status - in_kernel=true and in_bgp=true, no conflict detected. STEP 2: Checked routing_protocols - bgp protocol is advertised and valid.",
+      "root_cause": "",
+      "impact": [],
+      "remediation": [],
+      "prefix": "1.0.0.21/32",
+      "route_data": {
+        "prefix": "1.0.0.21/32",
+        "sources": {
+          "kernel": {
+            "prefix": "1.0.0.21/32",
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "source": "kernel"
+          },
+          "bgp": {
+            "prefix": "1.0.0.21/32",
+            "nexthop": null,
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "6500 65003",
+            "as_path_list": [
+              "6500",
+              "65003"
+            ]
+          }
+        },
+        "layer_status": {
+          "in_kernel": true,
+          "in_bgp": true
+        },
+        "as_path": "6500 65003",
+        "as_path_list": [
+          "6500",
+          "65003"
+        ],
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": null,
+            "as_path": "6500 65003",
+            "as_path_list": [
+              "6500",
+              "65003"
+            ]
+          },
+          "kernel": {
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "type": null
+          }
+        }
+      }
+    },
+    {
+      "is_validation": false,
+      "is_anomaly": false,
+      "validation_type": null,
+      "reasoning": "Checked routing_protocols.bgp.advertised. bgp.advertised=true \u2192 no net_bgp_policy_violation detected. Checked layer_status.in_kernel and in_bgp. Both are true \u2192 no net_bgp_blackhole_route_conflict detected.",
+      "root_cause": "",
+      "impact": [],
+      "remediation": [],
+      "confidence": 0.0,
+      "severity": "info",
+      "prefix": "1.0.0.22/32",
+      "route_data": {
+        "prefix": "1.0.0.22/32",
+        "sources": {
+          "kernel": {
+            "prefix": "1.0.0.22/32",
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "source": "kernel"
+          },
+          "bgp": {
+            "prefix": "1.0.0.22/32",
+            "nexthop": null,
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "6500 65004",
+            "as_path_list": [
+              "6500",
+              "65004"
+            ]
+          }
+        },
+        "layer_status": {
+          "in_kernel": true,
+          "in_bgp": true
+        },
+        "as_path": "6500 65004",
+        "as_path_list": [
+          "6500",
+          "65004"
+        ],
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": null,
+            "as_path": "6500 65004",
+            "as_path_list": [
+              "6500",
+              "65004"
+            ]
+          },
+          "kernel": {
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "type": null
+          }
+        }
+      }
+    },
+    {
+      "is_validation": false,
+      "is_anomaly": false,
+      "validation_type": null,
+      "reasoning": "STEP 1: Checked routing_protocols.bgp.advertised. IF bgp.advertised == true, check policy_action and route_map.action. Since bgp.advertised is true, proceed to STEP 2.",
+      "severity": "info",
+      "confidence": 0.95,
+      "prefix": "1.0.0.3/32",
+      "route_data": {
+        "prefix": "1.0.0.3/32",
+        "sources": {
+          "kernel": {
+            "prefix": "1.0.0.3/32",
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "source": "kernel"
+          },
+          "bgp": {
+            "prefix": "1.0.0.3/32",
+            "nexthop": null,
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "6500",
+            "as_path_list": [
+              "6500"
+            ]
+          }
+        },
+        "layer_status": {
+          "in_kernel": true,
+          "in_bgp": true
+        },
+        "as_path": "6500",
+        "as_path_list": [
+          "6500"
+        ],
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": null,
+            "as_path": "6500",
+            "as_path_list": [
+              "6500"
+            ]
+          },
+          "kernel": {
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "type": null
+          }
+        }
+      }
+    },
+    {
+      "is_validation": false,
+      "is_anomaly": false,
+      "validation_type": null,
+      "reasoning": "Checked routing_protocols.bgp.advertised. bgp.advertised == true \u2192 Proceed with net_bgp_blackhole_route_conflict check. Checked routing_protocols.kernel.protocol. kernel.protocol == 'bgp' \u2192 Proceed with net_bgp_blackhole_route_conflict check. Checked layer_status.in_kernel and layer_status.in_bgp. in_kernel == true and in_bgp == true \u2192 No conflict found.",
+      "root_cause": "",
+      "impact": [],
+      "remediation": [],
+      "confidence": 0.0,
+      "severity": "info",
+      "prefix": "1.0.0.4/32",
+      "route_data": {
+        "prefix": "1.0.0.4/32",
+        "sources": {
+          "kernel": {
+            "prefix": "1.0.0.4/32",
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "source": "kernel"
+          },
+          "bgp": {
+            "prefix": "1.0.0.4/32",
+            "nexthop": null,
+            "source": "bgp",
+            "protocol": "bgp",
+            "as_path": "6500",
+            "as_path_list": [
+              "6500"
+            ]
+          }
+        },
+        "layer_status": {
+          "in_kernel": true,
+          "in_bgp": true
+        },
+        "as_path": "6500",
+        "as_path_list": [
+          "6500"
+        ],
+        "routing_protocols": {
+          "bgp": {
+            "advertised": true,
+            "is_valid": true,
+            "nexthop": null,
+            "as_path": "6500",
+            "as_path_list": [
+              "6500"
+            ]
+          },
+          "kernel": {
+            "protocol": "bgp",
+            "nexthop": null,
+            "interface": null,
+            "metric": 20,
+            "table": "main",
+            "type": null
+          }
+        }
+      }
+    }
+  ],
+  "neighbor_results": [],
+  "interface_results": [],
+  "evpn_results": [],
+  "summary": {
+    "total_routes": 8,
+    "total_neighbors": 0,
+    "total_interfaces": 0,
+    "total_evpn_items": 0,
+    "anomalies": 1,
+    "route_anomalies": 1,
+    "neighbor_anomalies": 0,
+    "interface_anomalies": 0,
+    "evpn_anomalies": 0,
+    "normal": 7
+  },
+  "detection_method": "llm_trained_detector",
+  "model_used": "llama-validator-model",
+  "llm_call_log": [
+    {
+      "route_index": 1,
+      "prefix": "1.0.0.1/32",
+      "prompt_length": 862,
+      "timestamp": "2025-11-19 20:47:18",
+      "prompt_preview": "Analyze this route data and detect ONLY these validation types: [net_bgp_blackhole_route_conflict, net_bgp_policy_violation]. Route data: {\"prefix\": \"1.0.0.1/32\", \"sources\": {\"kernel\": {\"prefix\": \"1.0...",
+      "duration_seconds": 15.22,
+      "status": "timeout",
+      "error": "LLM call timed out after 15.2s"
+    },
+    {
+      "route_index": 2,
+      "prefix": "1.0.0.12/32",
+      "prompt_length": 1108,
+      "timestamp": "2025-11-19 20:47:33",
+      "prompt_preview": "Analyze this route data and detect ONLY these validation types: [net_bgp_blackhole_route_conflict, net_bgp_policy_violation]. Route data: {\"prefix\": \"1.0.0.12/32\", \"sources\": {\"kernel\": {\"prefix\": \"1....",
+      "duration_seconds": 13.62,
+      "return_code": 0,
+      "response_length": 318,
+      "response_preview": "{\"is_validation\": true, \"is_anomaly\": true, \"validation_type\": \"net_bgp_policy_violation\", \"severity\": \"critical\", \"confidence\": 1.0, \"reasoning\": \"STEP 1: Checked policy_action - policy_action='deny'...",
+      "status": "success",
+      "detected_anomaly": true,
+      "validation_type": "net_bgp_policy_violation",
+      "confidence": 1.0
+    },
+    {
+      "route_index": 3,
+      "prefix": "1.0.0.11/32",
+      "prompt_length": 577,
+      "timestamp": "2025-11-19 20:47:47",
+      "prompt_preview": "Analyze this route data and detect ONLY these validation types: [net_bgp_blackhole_route_conflict, net_bgp_policy_violation]. Route data: {\"prefix\": \"1.0.0.11/32\", \"sources\": {\"bgp\": {\"prefix\": \"1.0.0...",
+      "duration_seconds": 1.6,
+      "return_code": 0,
+      "response_length": 472,
+      "response_preview": "{\"is_validation\": false, \"is_anomaly\": false, \"validation_type\": null, \"severity\": \"info\", \"confidence\": 1.0, \"reasoning\": \"Checked routing_protocols.bgp.advertised - true \\u2192 BGP route exists. Che...",
+      "status": "success",
+      "detected_anomaly": false,
+      "validation_type": null,
+      "confidence": 1.0
+    },
+    {
+      "route_index": 4,
+      "prefix": "1.0.0.2/32",
+      "prompt_length": 790,
+      "timestamp": "2025-11-19 20:47:48",
+      "prompt_preview": "Analyze this route data and detect ONLY these validation types: [net_bgp_blackhole_route_conflict, net_bgp_policy_violation]. Route data: {\"prefix\": \"1.0.0.2/32\", \"sources\": {\"kernel\": {\"prefix\": \"1.0...",
+      "duration_seconds": 1.5,
+      "return_code": 0,
+      "response_length": 294,
+      "response_preview": "{\"is_validation\": false, \"is_anomaly\": false, \"validation_type\": null, \"reasoning\": \"STEP 1: Checked routing_protocols.bgp.advertised. IF bgp.advertised == true, check policy_action and route_map.acti...",
+      "status": "success",
+      "detected_anomaly": false,
+      "validation_type": null,
+      "confidence": 0.95
+    },
+    {
+      "route_index": 5,
+      "prefix": "1.0.0.21/32",
+      "prompt_length": 838,
+      "timestamp": "2025-11-19 20:47:50",
+      "prompt_preview": "Analyze this route data and detect ONLY these validation types: [net_bgp_blackhole_route_conflict, net_bgp_policy_violation]. Route data: {\"prefix\": \"1.0.0.21/32\", \"sources\": {\"kernel\": {\"prefix\": \"1....",
+      "duration_seconds": 1.54,
+      "return_code": 0,
+      "response_length": 335,
+      "response_preview": "{\"is_validation\": false, \"is_anomaly\": false, \"validation_type\": null, \"severity\": \"info\", \"confidence\": 1.0, \"reasoning\": \"STEP 1: Checked layer_status - in_kernel=true and in_bgp=true, no conflict d...",
+      "status": "success",
+      "detected_anomaly": false,
+      "validation_type": null,
+      "confidence": 1.0
+    },
+    {
+      "route_index": 6,
+      "prefix": "1.0.0.22/32",
+      "prompt_length": 838,
+      "timestamp": "2025-11-19 20:47:51",
+      "prompt_preview": "Analyze this route data and detect ONLY these validation types: [net_bgp_blackhole_route_conflict, net_bgp_policy_violation]. Route data: {\"prefix\": \"1.0.0.22/32\", \"sources\": {\"kernel\": {\"prefix\": \"1....",
+      "duration_seconds": 1.57,
+      "return_code": 0,
+      "response_length": 354,
+      "response_preview": "{\"is_validation\": false, \"is_anomaly\": false, \"validation_type\": null, \"reasoning\": \"Checked routing_protocols.bgp.advertised. bgp.advertised=true \\u2192 no net_bgp_policy_violation detected. Checked ...",
+      "status": "success",
+      "detected_anomaly": false,
+      "validation_type": null,
+      "confidence": 0.0
+    },
+    {
+      "route_index": 7,
+      "prefix": "1.0.0.3/32",
+      "prompt_length": 790,
+      "timestamp": "2025-11-19 20:47:53",
+      "prompt_preview": "Analyze this route data and detect ONLY these validation types: [net_bgp_blackhole_route_conflict, net_bgp_policy_violation]. Route data: {\"prefix\": \"1.0.0.3/32\", \"sources\": {\"kernel\": {\"prefix\": \"1.0...",
+      "duration_seconds": 1.49,
+      "return_code": 0,
+      "response_length": 294,
+      "response_preview": "{\"is_validation\": false, \"is_anomaly\": false, \"validation_type\": null, \"reasoning\": \"STEP 1: Checked routing_protocols.bgp.advertised. IF bgp.advertised == true, check policy_action and route_map.acti...",
+      "status": "success",
+      "detected_anomaly": false,
+      "validation_type": null,
+      "confidence": 0.95
+    },
+    {
+      "route_index": 8,
+      "prefix": "1.0.0.4/32",
+      "prompt_length": 790,
+      "timestamp": "2025-11-19 20:47:54",
+      "prompt_preview": "Analyze this route data and detect ONLY these validation types: [net_bgp_blackhole_route_conflict, net_bgp_policy_violation]. Route data: {\"prefix\": \"1.0.0.4/32\", \"sources\": {\"kernel\": {\"prefix\": \"1.0...",
+      "duration_seconds": 1.75,
+      "return_code": 0,
+      "response_length": 509,
+      "response_preview": "{\"is_validation\": false, \"is_anomaly\": false, \"validation_type\": null, \"reasoning\": \"Checked routing_protocols.bgp.advertised. bgp.advertised == true \\u2192 Proceed with net_bgp_blackhole_route_confli...",
+      "status": "success",
+      "detected_anomaly": false,
+      "validation_type": null,
+      "confidence": 0.0
+    }
+  ]
+}

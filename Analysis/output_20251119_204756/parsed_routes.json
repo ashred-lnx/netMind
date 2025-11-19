@@ -1,0 +1,206 @@
+{
+  "kernel_routes": {
+    "1.0.0.1/32": {
+      "prefix": "1.0.0.1/32",
+      "protocol": "static",
+      "nexthop": "blackhole",
+      "interface": null,
+      "metric": 20,
+      "table": "main",
+      "source": "kernel",
+      "type": "blackhole"
+    },
+    "1.0.0.2/32": {
+      "prefix": "1.0.0.2/32",
+      "protocol": "bgp",
+      "nexthop": null,
+      "interface": null,
+      "metric": 20,
+      "table": "main",
+      "source": "kernel"
+    },
+    "1.0.0.3/32": {
+      "prefix": "1.0.0.3/32",
+      "protocol": "bgp",
+      "nexthop": null,
+      "interface": null,
+      "metric": 20,
+      "table": "main",
+      "source": "kernel"
+    },
+    "1.0.0.4/32": {
+      "prefix": "1.0.0.4/32",
+      "protocol": "bgp",
+      "nexthop": null,
+      "interface": null,
+      "metric": 20,
+      "table": "main",
+      "source": "kernel"
+    },
+    "1.0.0.12/32": {
+      "prefix": "1.0.0.12/32",
+      "protocol": "bgp",
+      "nexthop": null,
+      "interface": null,
+      "metric": 20,
+      "table": "main",
+      "source": "kernel"
+    },
+    "1.0.0.21/32": {
+      "prefix": "1.0.0.21/32",
+      "protocol": "bgp",
+      "nexthop": null,
+      "interface": null,
+      "metric": 20,
+      "table": "main",
+      "source": "kernel"
+    },
+    "1.0.0.22/32": {
+      "prefix": "1.0.0.22/32",
+      "protocol": "bgp",
+      "nexthop": null,
+      "interface": null,
+      "metric": 20,
+      "table": "main",
+      "source": "kernel"
+    }
+  },
+  "bgp_routes": {
+    "1.0.0.1/32": {
+      "prefix": "1.0.0.1/32",
+      "nexthop": null,
+      "source": "bgp",
+      "protocol": "bgp",
+      "as_path": "6500",
+      "as_path_list": [
+        "6500"
+      ]
+    },
+    "1.0.0.2/32": {
+      "prefix": "1.0.0.2/32",
+      "nexthop": null,
+      "source": "bgp",
+      "protocol": "bgp",
+      "as_path": "6500",
+      "as_path_list": [
+        "6500"
+      ]
+    },
+    "1.0.0.3/32": {
+      "prefix": "1.0.0.3/32",
+      "nexthop": null,
+      "source": "bgp",
+      "protocol": "bgp",
+      "as_path": "6500",
+      "as_path_list": [
+        "6500"
+      ]
+    },
+    "1.0.0.4/32": {
+      "prefix": "1.0.0.4/32",
+      "nexthop": null,
+      "source": "bgp",
+      "protocol": "bgp",
+      "as_path": "6500",
+      "as_path_list": [
+        "6500"
+      ]
+    },
+    "1.0.0.11/32": {
+      "prefix": "1.0.0.11/32",
+      "nexthop": "0.0.0.0",
+      "source": "bgp",
+      "protocol": "bgp",
+      "as_path": "32768",
+      "as_path_list": [
+        "32768"
+      ]
+    },
+    "1.0.0.12/32": {
+      "prefix": "1.0.0.12/32",
+      "nexthop": null,
+      "source": "bgp",
+      "protocol": "bgp",
+      "as_path": "6500 65002",
+      "as_path_list": [
+        "6500",
+        "65002"
+      ],
+      "policy_action": "deny",
+      "route_map": {
+        "name": "BLOCK_LEAF12",
+        "action": "deny",
+        "type": "filter-list",
+        "matched_pattern": "_65002_"
+      }
+    },
+    "1.0.0.21/32": {
+      "prefix": "1.0.0.21/32",
+      "nexthop": null,
+      "source": "bgp",
+      "protocol": "bgp",
+      "as_path": "6500 65003",
+      "as_path_list": [
+        "6500",
+        "65003"
+      ]
+    },
+    "1.0.0.22/32": {
+      "prefix": "1.0.0.22/32",
+      "nexthop": null,
+      "source": "bgp",
+      "protocol": "bgp",
+      "as_path": "6500 65004",
+      "as_path_list": [
+        "6500",
+        "65004"
+      ]
+    }
+  },
+  "bgp_neighbors": {},
+  "interfaces": {
+    "lo": {
+      "name": "lo",
+      "state": "up",
+      "oper_state": "up"
+    },
+    "swp1": {
+      "name": "swp1",
+      "state": "up",
+      "oper_state": "up"
+    },
+    "swp2": {
+      "name": "swp2",
+      "state": "up",
+      "oper_state": "up"
+    },
+    "swp3": {
+      "name": "swp3",
+      "state": "up",
+      "oper_state": "up"
+    },
+    "swp4": {
+      "name": "swp4",
+      "state": "up",
+      "oper_state": "up"
+    },
+    "swp5": {
+      "name": "swp5",
+      "state": "up",
+      "oper_state": "up"
+    },
+    "eth0": {
+      "name": "eth0",
+      "state": "up",
+      "oper_state": "up"
+    },
+    "mgmt": {
+      "name": "mgmt",
+      "state": "up",
+      "oper_state": "up"
+    }
+  },
+  "qos_counters": {},
+  "interface_modes": {},
+  "evpn_data": {}
+}
