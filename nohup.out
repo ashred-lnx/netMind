@@ -6,3 +6,26 @@ Already up to date.
 [0;32m[STEP][0m Checking for changes to commit...
 [1;33m[INFO][0m Found changes to commit
 [0;32m[STEP][0m Committing cleanup changes...
+[main aa7ff2c] cleanup previous data and analysis - 2025-11-19 20:28:54
+ Committer: root <root@01d088c411ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 8 insertions(+)
+ create mode 100644 nohup.out
+[1;33m[INFO][0m Cleanup committed successfully
+[0;32m[STEP][0m Generating new cl-support file...
+cl-support.system: /var/log is large: 62MB
+cl-support: tar returned 1: some files may have changed while being archived
+Please send /home/cumulus/netMind/Data//cl_support_leaf-11_20251119_202855.txz to Cumulus support.
+[1;33m[INFO][0m cl-support file generated successfully
+[0;32m[STEP][0m Committing new cl-support file...
