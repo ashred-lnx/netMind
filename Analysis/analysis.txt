@@ -1,13 +1,13 @@
 ================================================================================
 NETWORK ANOMALY DETECTION ANALYSIS REPORT
 ================================================================================
-Generated: 2025-11-19 20:57:08
+Generated: 2025-11-19 21:02:53
 
 📊 SUMMARY
 --------------------------------------------------------------------------------
 Detection Method: llm_validation
-Total Routes Analyzed: 15
-✅ Normal Routes: 13
+Total Routes Analyzed: 14
+✅ Normal Routes: 12
 🚨 Anomalies Detected: 2
 
 🚨 DETECTED ANOMALIES
@@ -16,7 +16,7 @@ Total Routes Analyzed: 15
 • PREFIX: 1.0.0.1/32
   TYPE: NET BGP BLACKHOLE ROUTE CONFLICT
   SEVERITY: critical
-  REASONING: BGP route is advertised with nexthop 'null' but kernel route has nexthop 'blackhole', indicating a blackhole route conflict.
+  REASONING: BGP route is advertised with a nexthop of null, but the kernel route has a nexthop of 'blackhole', indicating a blackhole route.
   ROOT CAUSE: Prefix 1.0.0.1/32: BGP route is advertised (advertised=True, in_bgp=True) but kernel has a static blackhole route (protocol=static, nexthop=blackhole, in_kernel=True). The blackhole route drops all traffic, preventing the valid BGP route from being used.
   REMEDIATION:
     Remove the kernel blackhole route to allow BGP route to be installed.
@@ -46,12 +46,11 @@ Total Routes Analyzed: 15
     6. Verify route is installed: nv show vrf default router rib 1.0.0.12/32 ipv4
   IMPACT:
     - Network connectivity affected
-    - Routing loop potential
 
 
 📊 CORRELATION DATA (LLM-Driven)
 --------------------------------------------------------------------------------
-Correlated Routes: 15
+Correlated Routes: 14
 Correlated Interfaces: 0
 Correlated Neighbors: 0
 Correlation Method: llm_driven
